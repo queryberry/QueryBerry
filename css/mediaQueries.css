@@ -1,0 +1,160 @@
+@media screen and (max-width: 1200px) {
+  .blog__description{
+    width: 75%;
+  }
+
+  .blog__img{
+    justify-content: flex-start;
+  }
+
+  .blog__img__middle {
+    margin-left: 0px;
+  }
+  .form__input{
+    width: 90%;
+  }
+
+  .works__gallery{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+    padding-top: 120px;
+  }
+
+  .price__plan{
+    width: 300px;
+  }
+  .advantages__li{
+      margin-left: 30px;
+  }
+
+  #works__gallery1{
+      background: url(../img/Gallery1Small.png) no-repeat center top;
+  }
+
+  #works__gallery2{
+      background: url(../img/Gallery2Small.png) no-repeat center top;
+  }
+
+  #works__gallery3{
+      background: url(../img/Gallery3Small.png) no-repeat center top;
+  }
+
+  #works__gallery4{
+      background: url(../img/Gallery4Small.png) no-repeat center top;
+  }
+
+  #works__gallery5{
+      background: url(../img/Gallery5Small.png) no-repeat center top;
+  }
+
+  #works__gallery6{
+      background: url(../img/Gallery6Small.png) no-repeat center top;
+  }
+
+  .person__face{
+    width: 300px;
+    height: 270px;
+
+  }
+
+  .person{
+    text-align: left;
+  }
+
+  .person__name{
+    text-align: center;
+    padding-right: 75px;
+  }
+
+  .person__status{
+    text-align: center;
+    padding-right: 75px;
+  }
+
+
+  .person_buttons{
+    text-align: left;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  .about__text{
+  width: 100%;
+  }
+
+  .services__text{
+    width: 100%;
+  }
+
+  .works__text{
+    width: 100%;
+  }
+
+  .price__text{
+    width: 100%;
+  }
+
+  .team__text{
+    width: 100%;
+  }
+
+  .blog__text{
+    width: 100%;
+  }
+
+  .works__gallery{
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .price__plan{
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .person{
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .blog__img__middle {
+    margin-bottom: 40px;
+  }
+
+  .form__input{
+    margin-top: 20px;
+
+  }
+
+
+
+
+}
+
+
+@media screen and (max-width: 576px) {
+  .offer__button{
+
+    margin-bottom: 30px;
+  }
+
+  #offer_specialButton{
+    margin-left: 8px;
+  }
+
+
+  .works__button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .blog__description{
+
+  }
+
+  .blog__img{
+    margin: 0;
+  }

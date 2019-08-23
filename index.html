@@ -10,12 +10,11 @@
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/master.css?ver=1">
   <link rel="stylesheet" href="css/mediaQueries.css">
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans|Rubik+Mono+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans|Open+Sans+Condensed:300|Pacifico|Rubik+Mono+One&display=swap" rel="stylesheet">
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 
 <!-- Wow для анимации при прокрутке страницы -->
 <script src="js/wow.min.js"></script>
@@ -41,23 +40,27 @@
     <ul class="navbar-nav menu ml-auto">
 
       <li class="menu__item nav-item wow zoomIn">
-        <a class="nav-link" href="#">Главная<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="">Главная<span class="sr-only">(current)</span></a>
       </li>
 
       <li class="menu__item nav-item wow zoomIn" data-wow-delay="0.2s">
-        <a class="nav-link" href="#">О нас</a>
+        <a class="nav-link" href="#about">О нас</a>
       </li>
 
       <li class="menu__item nav-item wow zoomIn" data-wow-delay="0.4s">
-        <a class="nav-link" href="#">Услуги</a>
+        <a class="nav-link" href="#design">Дизайн</a>
       </li>
 
       <li class="menu__item nav-item wow zoomIn" data-wow-delay="0.6s">
-        <a class="nav-link" href="#">Наша команда</a>
+        <a class="nav-link" href="#price">Услуги</a>
+      </li>
+
+      <li class="menu__item nav-item wow zoomIn" data-wow-delay="0.8s">
+        <a class="nav-link" href="#team">Наша команда</a>
       </li>
 
       <li class="menu__item nav-item wow zoomIn" data-wow-delay="1s">
-        <a class="nav-link" href="#">Свяжитесь с нами</a>
+        <a class="nav-link" href="#connect">Свяжитесь с нами</a>
       </li>
 
     </ul>
@@ -88,6 +91,8 @@
     </div>
   </header>
 
+
+  <a id="about"></a>
   <section class="aboutUs">
     <div class="container">
     <div class="row">
@@ -113,7 +118,7 @@
             Весь мир
           </h3>
           <p class="infoGroups__text">
-            хотим чернику хотим чернику хотим чернику хотим чернику хотим чернику хотим чернику
+            Мы работаем с клиентами по всему миру на русском и английском языках.
           </p>
         </div>
       </div>
@@ -125,7 +130,7 @@
             Команда
           </h3>
           <p class="infoGroups__text">
-            хотим чернику хотим чернику хотим чернику хотим чернику хотим чернику хотим чернику
+            Мы разделяем обязанности при создании сайта, что позволяет выполнять работу быстрее.
           </p>
         </div>
       </div>
@@ -137,7 +142,7 @@
             Креативность
           </h3>
           <p class="infoGroups__text">
-            хотим чернику хотим чернику хотим чернику хотим чернику хотим чернику хотим чернику
+            Мы придумываем интересные решения и идеи для улучшения вашего сайта.
           </p>
         </div>
       </div>
@@ -147,6 +152,7 @@
   </section>
 
 
+  <a id="design"></a>
   <section class="servicing">
     <div class="servicingBackround parallax-window" data-parallax="scroll" data-image-src="img/background2.png">
       <div class="container">
@@ -156,23 +162,27 @@
               <h1 class="servises__title1">СОВРЕМЕННЫЙ ДИЗАЙН</h1>
               <div class="row">
                 <div class="col-lg-4">
+                  <h2 class="servises__title2">Bootstrap 4</h2>
                   <p class="servises__text">
-                    Мы используем самые современные технологии создания сайтов и следем за всеми новинками в сфере нашей деятельности
+                    Мы используем технологию <span class="services__bootstrap">Bootstrap 4</span> для ускорения процесса верстки, удобной адаптивности сайтов и создания качественного и структурированного кода
                   </p>
                 </div>
               </div>
               <div class="row d-flex">
                 <div class="col-lg-8"></div>
-                <div class="col-lg-4 justify-content-end">
+                <div class="col-lg-4">
+                  <h2 class="servises__title2">Красткость - наше всё</h2>
                   <p class="servises__text">
-                    Мы используем самые современные технологии создания сайтов и следем за всеми новинками в сфере нашей деятельности
+                    Мы стараемся сделать наш код максимально лаконичным, и не перегружаем его.
+                    Это позваляет сайту загружаться и работать быстрее.
                   </p>
                 </div>
               </div>
               <div class="row">
                 <div class="col-lg-4">
+                  <h2 class="servises__title2">Красота</h2>
                   <p class="servises__text">
-                    Мы используем самые современные технологии создания сайтов и следем за всеми новинками в сфере нашей деятельности
+                    Анимация, Parallax - эти и многие другие эффекты мы используем, чтобы придать сайту живой и индивидуальный стиль.
                   </p>
                 </div>
               </div>
@@ -264,7 +274,7 @@
   </section>
 
 -->
-
+  <a id="price"></a>
   <section class="ourPrice">
     <div class="container">
       <div class="row">
@@ -358,6 +368,7 @@
     </div>
   </section>
 
+  <a id="team"></a>
   <section class="ourTeam">
     <div class="container">
       <div class="row">
@@ -379,9 +390,9 @@
               <h4 class="person__name">Марк Тамаров</h4>
               <span class="person__status">Back-end разработчик</span>
               <div class="person_buttons">
-              <button class="person__links person__vk"><i class="person__icon fa fa-vk"></i><a href="#"></a></button>
-              <button class="person__links person__twitter"><i class="person__icon fa fa-twitter"></i><a href="#"></a></button>
-              <button class="person__links person__git"><i class="person__icon fa fa-github"></i><a href="#"></a></button>
+              <button class="person__links person__vk"><a href="https://vk.com/derpyhowes" class="person__links__a"><i class="person__icon fa fa-vk"></i></a></button>
+              <button class="person__links person__twitter"><a href="#" class="person__links__a"><i class="person__icon fa fa-twitter"></i></a></button>
+              <button class="person__links person__git"><a href="https://github.com/mar4elkin" class="person__links__a"><i class="person__icon fa fa-github"></i></a></button>
               </div>
             </div>
           </div>
@@ -395,9 +406,9 @@
               <h4 class="person__name">Павел Усатенко</h4>
               <span class="person__status">Front-end разработчик</span>
               <div class="person_buttons">
-              <button class="person__links person__vk"><i class="person__icon fa fa-vk"></i><a href="#"></a></button>
-              <button class="person__links person__twitter"><i class="person__icon fa fa-twitter"></i><a href="#"></a></button>
-              <button class="person__links person__git"><i class="person__icon fa fa-github"></i><a href="#"></a></button>
+              <button class="person__links person__vk"><a href="https://vk.com/lost_inn_dark" class="person__links__a"><i class="person__icon fa fa-vk"></i></a></button>
+              <button class="person__links person__twitter"><a href="#" class="person__links__a"><i class="person__icon fa fa-twitter"></i></a></button>
+              <button class="person__links person__git"><a href="https://github.com/googlpasha" class="person__links__a"><i class="person__icon fa fa-github"></i></a></button>
               </div>
             </div>
           </div>
@@ -514,6 +525,7 @@
 
   -->
 
+  <a id="connect"></a>
   <section class="ourContact">
     <div class="container">
       <div class="row">

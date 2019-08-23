@@ -73,8 +73,9 @@ p {
 }
 
 .offer__text{
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #fff;
-  font-size: 17px;
+  font-size: 25px;
   margin-top: 25px;
   letter-spacing: 2px;
 }
@@ -147,14 +148,30 @@ p {
   color: #FEDC56;
   font-weight: 700;
   font-size: 60px;
-  margin-bottom: 30px;
+  margin-bottom:60px;
+}
+
+.servises__title2{
+  font-family: 'Pacifico', cursive;
+  margin-top: 20px;
+  color: #fff;
+  text-align: left;
 }
 
 .servises__text{
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
   text-align: left;
-  margin-top: 20px;
+}
+
+.services__bootstrap{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
+  background-color: #6531B1;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius:5px;
 }
 
 
@@ -398,6 +415,7 @@ p {
 
 .person_buttons{
   text-align: center;
+  margin-left: 10px;
 }
 
 .person__links{
@@ -408,6 +426,15 @@ p {
   border: none;
   border-radius: 5px;
   background-color: #F0F1F1;
+}
+
+.person__links__a{
+    color: #5B6EE1;
+}
+
+.person__links:hover > .person__links__a{
+    color: #fff;
+    transition: all 0.3s;
 }
 
 .person__icon{

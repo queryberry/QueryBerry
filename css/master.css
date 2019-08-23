@@ -23,7 +23,6 @@ p {
 /*Первый экран*/
 
 .header{
-  margin-top: 52px;
 }
 
 .menu{
@@ -55,13 +54,15 @@ p {
   min-height: 700px;
   width: 100%;
   background-size: 100%;
-  margin-top: 20px;
+  margin-top: 0px;
+  padding: 0;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
 
 .offer__title{
   font-family: 'Rubik Mono One', sans-serif;
@@ -128,7 +129,6 @@ p {
 }
 
 .servicing{
-  padding-bottom: 150px;
 }
 
 .servicingBackround{
@@ -160,7 +160,6 @@ p {
 
 .works{
   text-align: center;
-  margin-top: 120px;
   margin-bottom: 100px;
 }
 
@@ -300,7 +299,7 @@ p {
 }
 
 .price__plan__top{
-  background-color: #3949AB;
+  background-color: #5B6EE1;
   height: 180px;
   color: #fff;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
@@ -352,8 +351,8 @@ p {
 
 .price_plan_button:hover{
   color: #fff;
-  background-color: #00897B;
-  border: #00897B 2px solid;
+  background-color: #5B6EE1;
+  border: #5B6EE1 2px solid;
   transition: all 0.3s;
 }
 
@@ -374,6 +373,7 @@ p {
 
 .person {
   width: 370px;
+  margin-left: 60px;
   margin-bottom: 120px;
   font-weight: 400;
 
@@ -404,7 +404,7 @@ p {
   margin-right: 15px;
   width: 50px;
   height: 50px;
-  color: #00897B;
+  color: #5B6EE1;
   border: none;
   border-radius: 5px;
   background-color: #F0F1F1;
@@ -414,9 +414,9 @@ p {
   font-size: 25px;
 }
 
-.person__facebook:hover{
+.person__vk:hover{
   color: #fff;
-  background-color: #3949AB;
+  background-color: #4D75A3;
   transition: all 0.3s;
 }
 
@@ -426,19 +426,17 @@ p {
   transition: all 0.3s;
 }
 
-.person__comments:hover{
+.person__git:hover{
+  cursor: pointer;
   color: #fff;
-  background-color: #2DB642;
+  background-color: #24292E;
   transition: all 0.3s;
 }
 
-.person__dribble:hover{
-  color: #B2215A;
-  background-color: #E74D89;
-  transition: all 0.3s;
-}
 
 /* Блог */
+
+/*
 .ourBlog{
   background-color: #E4FDF9;
 }
@@ -460,7 +458,7 @@ p {
     color: #3A3A3A;
 }
 
-/* Основной контетн Блога */
+ Основной контетн Блога
 
 .blog__description{
   margin-left: 30px;
@@ -506,7 +504,7 @@ p {
   margin-top: 20px;
 }
 
-/* Разбираемся с отступами в центре */
+ Разбираемся с отступами в центре
 
 .blog__description__middle{
   margin-left: 0;
@@ -516,7 +514,7 @@ p {
   margin-left: 30px;
 }
 
-/* Разобрались */
+ Разобрались
 
 
 .blog__more{
@@ -535,12 +533,14 @@ p {
   font-weight: 700;
 }
 
+*/
+
 /* Обратная связь */
 
 /* background */
 
 .ourContact{
-  background: url(../img/bottomBackground1.png) no-repeat center top;
+  background: url(../img/bottomBackground.png) no-repeat center top;
   text-align: center;
   background-attachment: relative;
   background-position: center center;
@@ -579,7 +579,7 @@ p {
 }
 
 .contact__marker__icon{
-  background-color: #3949AB;
+  background-color: #5B6EE1;
   font-size: 60px;
   width: 80px;
   height: 80px;

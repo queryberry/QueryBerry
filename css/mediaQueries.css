@@ -114,10 +114,7 @@
     margin: 0 auto;
     margin-bottom: 40px;
   }
-  .person{
-    margin: 0 auto;
-    margin-bottom: 50px;
-  }
+
 
   .blog__img__middle {
     margin-bottom: 40px;
@@ -125,18 +122,43 @@
 
   .form__input{
     margin-top: 20px;
-
   }
 
+  .person{
+    margin: 0 auto;
+    margin-bottom: 45px;
+    text-align: center;
+  }
 
+  .person__name{
+    margin-left: 75px;
+  }
 
+  .person__status{
+    margin-left: 75px;
+  }
 
+  .person_buttons{
+    margin-left: 70px;
+  }
+
+  .person__face{
+    height: 230px;
+  }
+
+  .contact__marker{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
 }
 
 
 @media screen and (max-width: 576px) {
+  .menu__item{
+    margin-left: 20px;
+  }
   .offer__button{
-
     margin-bottom: 30px;
   }
 
@@ -151,10 +173,17 @@
     margin-top: 20px;
   }
 
-  .blog__description{
-
-  }
-
   .blog__img{
     margin: 0;
   }
+
+  .contact__text{
+      width:400px;
+  }
+  .servises__title1{
+    font-size: 45px;
+  }
+
+
+
+}

@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/master.css?ver=1">
+  <link rel="stylesheet" href="css/master.css?ver=2">
   <link rel="stylesheet" href="css/mediaQueries.css">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans|Open+Sans+Condensed:300|Pacifico|Rubik+Mono+One&display=swap" rel="stylesheet">
 
@@ -24,20 +24,14 @@
 </head>
 <body>
   <header class="header" id="header">
-    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       <a class="navbar-brand logo animated heartBeat" href="#"><img src="img/logo.png" alt=""></a>
 
-    <nav class="navbar navbar-expand-lg navbar-light">
-
-    <a class="navbar-brand logo animated heartBeat" href="#"><img src="img/logo.png" alt=""></a>
-
-  <!-- navbar-toggler создает удобную минюшку пир маленьком экране -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarNav">
-
-    <ul class="navbar-nav menu ml-auto">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav menu ml-auto">
 
       <li class="menu__item nav-item wow zoomIn">
         <a class="nav-link" href="">Главная<span class="sr-only">(current)</span></a>
@@ -64,10 +58,8 @@
       </li>
 
     </ul>
-  </div>
-</nav>
-
-    </div>
+      </div>
+    </nav>
 
     <div class="parallax-window headerwrap " data-parallax="scroll" data-image-src="img/background.png">
     <div class="container">

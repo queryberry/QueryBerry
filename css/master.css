@@ -45,7 +45,7 @@ p {
 }
 .logo{
   font-size: 30px;
-  margin: 5px;
+  width: 300px;
   margin-right: 30px;
 }
 
@@ -374,6 +374,14 @@ p {
   transition: all 0.3s;
 }
 
+.price_plan_button__link{
+  color: #000;
+}
+
+.price_plan_button:hover > .price_plan_button__link{
+  color: #fff;
+  text-decoration: none;
+}
 /*Наша команда*/
 
 .team{

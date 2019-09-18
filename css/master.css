@@ -97,10 +97,28 @@ p {
   outline: none;
 }
 
+.offer__button__link{
+  color: #fff;
+}
+
+.offer__button:hover > .offer__button__link{
+  color: #fff;
+  text-decoration: none;
+}
+
 #offer_specialButton{
   background-color: #5B6EE1;
   border: #5B6EE1 2px solid;
   margin-left: 20px;
+}
+
+#offer_specialButton__link{
+  color: #fff;
+  text-decoration: none;
+}
+
+#offer_specialButton:hover > #offer_specialButtonn__link{
+  color: #fff;
 }
 
 .about{

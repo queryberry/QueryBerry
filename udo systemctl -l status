@@ -1,0 +1,2187 @@
+-- Logs begin at Wed 2019-09-25 10:47:37 MSK, end at Wed 2019-09-25 10:53:12 MSK. --
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN15] (IRQs 7 10 11) *0, disabled.
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN16] (IRQs 7 10 *11)
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN17] (IRQs 7 10 *11)
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN18] (IRQs 7 10 *11)
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN19] (IRQs 7 10 *11)
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN20] (IRQs 7 10 *11)
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN21] (IRQs 7 10 11) *0, disabled.
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN22] (IRQs 7 *10 11)
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN23] (IRQs *7 10 11)
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN24] (IRQs 7 10 *11)
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN25] (IRQs 7 10 *11)
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN26] (IRQs 7 10 *11)
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN27] (IRQs 7 10 11) *0, disabled.
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN28] (IRQs *7 10 11)
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN29] (IRQs 7 10 *11)
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN30] (IRQs 7 *10 11)
+сен 25 10:47:37 queryberry kernel: ACPI: PCI Interrupt Link [IN31] (IRQs 7 10 11) *0, disabled.
+сен 25 10:47:37 queryberry kernel: pci 0000:00:03.0: vgaarb: setting as boot VGA device
+сен 25 10:47:37 queryberry kernel: pci 0000:00:03.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+сен 25 10:47:37 queryberry kernel: pci 0000:00:03.0: vgaarb: bridge control possible
+сен 25 10:47:37 queryberry kernel: vgaarb: loaded
+сен 25 10:47:37 queryberry kernel: pps_core: LinuxPPS API ver. 1 registered
+сен 25 10:47:37 queryberry kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+сен 25 10:47:37 queryberry kernel: PTP clock support registered
+сен 25 10:47:37 queryberry kernel: EDAC MC: Ver: 3.0.0
+сен 25 10:47:37 queryberry kernel: PCI: Using ACPI for IRQ routing
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mPCI: pci_cache_line_size set to 64 bytes[0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37me820: reserve RAM buffer [mem 0x0009f400-0x0009ffff][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37me820: reserve RAM buffer [mem 0xcfe4e000-0xcfffffff][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37me820: reserve RAM buffer [mem 0xcfe57000-0xcfffffff][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37me820: reserve RAM buffer [mem 0x12ffff000-0x12fffffff][0m
+сен 25 10:47:37 queryberry kernel: HPET: 3 timers in total, 0 timers will be used for per-cpu timer
+сен 25 10:47:37 queryberry kernel: hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+сен 25 10:47:37 queryberry kernel: hpet0: 3 comparators, 64-bit 14.318180 MHz counter
+сен 25 10:47:37 queryberry kernel: clocksource: Switched to clocksource hpet
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mVFS: Disk quotas dquot_6.6.0[0m
+сен 25 10:47:37 queryberry kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+сен 25 10:47:37 queryberry kernel: AppArmor: AppArmor Filesystem Enabled
+сен 25 10:47:37 queryberry kernel: pnp: PnP ACPI init
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0408-0x040f] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x04d0-0x04d1] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x04d6] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0900-0x09fe] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0c80-0x0c83] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0cd4-0x0cd7] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0f50-0x0f58] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0520] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0580-0x059f] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0700-0x0703] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0c06-0x0c07] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0c14] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0c4a] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0c50-0x0c52] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0c6c] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0c6f] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0ca0-0x0ca1] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x0ca4-0x0ca5] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [io  0x02f8-0x02ff] has been reserved
+сен 25 10:47:37 queryberry kernel: system 00:00: [mem 0xd0000000-0xdfffffff] has been reserved
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37msystem 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)[0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)[0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpnp 00:02: Plug and Play ACPI device, IDs PNP0f13 PNP0f0e (active)[0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpnp 00:03: Plug and Play ACPI device, IDs PNP0501 PNP0500 (active)[0m
+сен 25 10:47:37 queryberry kernel: pnp: PnP ACPI: found 4 devices
+сен 25 10:47:37 queryberry kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+сен 25 10:47:37 queryberry kernel: pci 0000:00:03.0: BAR 6: assigned [mem 0xf0000000-0xf001ffff pref]
+сен 25 10:47:37 queryberry kernel: pci 0000:00:04.2: BAR 6: assigned [mem 0xf0020000-0xf002ffff pref]
+сен 25 10:47:37 queryberry kernel: pci 0000:01:0d.0: PCI bridge to [bus 02]
+сен 25 10:47:37 queryberry kernel: pci 0000:00:05.0: PCI bridge to [bus 01-02]
+сен 25 10:47:37 queryberry kernel: pci 0000:05:00.0: BAR 6: assigned [mem 0xfbc00000-0xfbc1ffff pref]
+сен 25 10:47:37 queryberry kernel: pci 0000:05:00.1: BAR 6: assigned [mem 0xfbc20000-0xfbc3ffff pref]
+сен 25 10:47:37 queryberry kernel: pci 0000:00:0f.0: PCI bridge to [bus 05-07]
+сен 25 10:47:37 queryberry kernel: pci 0000:00:0f.0:   bridge window [io  0x4000-0x4fff]
+сен 25 10:47:37 queryberry kernel: pci 0000:00:0f.0:   bridge window [mem 0xfbc00000-0xfbcfffff]
+сен 25 10:47:37 queryberry kernel: pci 0000:08:00.0: BAR 6: assigned [mem 0xfbd00000-0xfbd1ffff pref]
+сен 25 10:47:37 queryberry kernel: pci 0000:08:00.1: BAR 6: assigned [mem 0xfbd20000-0xfbd3ffff pref]
+сен 25 10:47:37 queryberry kernel: pci 0000:00:10.0: PCI bridge to [bus 08-0a]
+сен 25 10:47:37 queryberry kernel: pci 0000:00:10.0:   bridge window [io  0x5000-0x5fff]
+сен 25 10:47:37 queryberry kernel: pci 0000:00:10.0:   bridge window [mem 0xfbd00000-0xfbdfffff]
+сен 25 10:47:37 queryberry kernel: pci 0000:00:11.0: PCI bridge to [bus 0e]
+сен 25 10:47:37 queryberry kernel: pci 0000:0b:00.0: BAR 6: assigned [mem 0xfbe00000-0xfbe3ffff pref]
+сен 25 10:47:37 queryberry kernel: pci 0000:00:12.0: PCI bridge to [bus 0b-0d]
+сен 25 10:47:37 queryberry kernel: pci 0000:00:12.0:   bridge window [io  0x6000-0x6fff]
+сен 25 10:47:37 queryberry kernel: pci 0000:00:12.0:   bridge window [mem 0xfbe00000-0xfbffffff]
+сен 25 10:47:37 queryberry kernel: pci 0000:04:00.0: BAR 6: no space for [mem size 0x00000800 pref]
+сен 25 10:47:37 queryberry kernel: pci 0000:04:00.0: BAR 6: failed to assign [mem size 0x00000800 pref]
+сен 25 10:47:37 queryberry kernel: pci 0000:03:00.0: PCI bridge to [bus 04]
+сен 25 10:47:37 queryberry kernel: pci 0000:03:00.0:   bridge window [mem 0xf8000000-0xf9ffffff]
+сен 25 10:47:37 queryberry kernel: pci 0000:00:13.0: PCI bridge to [bus 03-04]
+сен 25 10:47:37 queryberry kernel: pci 0000:00:13.0:   bridge window [mem 0xf8000000-0xf9ffffff]
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:00: resource 4 [io  0x0000-0x03af window][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:00: resource 5 [io  0x03b0-0x03bb window][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:00: resource 6 [io  0x03c0-0x03df window][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:00: resource 7 [io  0x03e0-0x0cf7 window][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:00: resource 8 [io  0x1000-0x6fff window][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:00: resource 9 [mem 0xe8000000-0xfbffffff window][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:00: resource 10 [mem 0x000a0000-0x000bffff window][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:05: resource 0 [io  0x4000-0x4fff][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:05: resource 1 [mem 0xfbc00000-0xfbcfffff][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:08: resource 0 [io  0x5000-0x5fff][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:08: resource 1 [mem 0xfbd00000-0xfbdfffff][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:0b: resource 0 [io  0x6000-0x6fff][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:0b: resource 1 [mem 0xfbe00000-0xfbffffff][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:03: resource 1 [mem 0xf8000000-0xf9ffffff][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:04: resource 1 [mem 0xf8000000-0xf9ffffff][0m
+сен 25 10:47:37 queryberry kernel: pci 0000:40:0f.0: PCI bridge to [bus 43-45]
+сен 25 10:47:37 queryberry kernel: pci 0000:40:10.0: PCI bridge to [bus 46-48]
+сен 25 10:47:37 queryberry kernel: pci 0000:40:11.0: PCI bridge to [bus 49]
+сен 25 10:47:37 queryberry kernel: pci 0000:42:00.0: BAR 6: no space for [mem size 0x00000800 pref]
+сен 25 10:47:37 queryberry kernel: pci 0000:42:00.0: BAR 6: failed to assign [mem size 0x00000800 pref]
+сен 25 10:47:37 queryberry kernel: pci 0000:41:00.0: PCI bridge to [bus 42]
+сен 25 10:47:37 queryberry kernel: pci 0000:41:00.0:   bridge window [mem 0xfc000000-0xfdffffff]
+сен 25 10:47:37 queryberry kernel: pci 0000:40:12.0: PCI bridge to [bus 41-42]
+сен 25 10:47:37 queryberry kernel: pci 0000:40:12.0:   bridge window [mem 0xfc000000-0xfdffffff]
+сен 25 10:47:37 queryberry kernel: pci 0000:40:13.0: PCI bridge to [bus 4a]
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:40: resource 4 [mem 0xfc000000-0xfdffffff window][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:41: resource 1 [mem 0xfc000000-0xfdffffff][0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mpci_bus 0000:42: resource 1 [mem 0xfc000000-0xfdffffff][0m
+сен 25 10:47:37 queryberry kernel: NET: Registered protocol family 2
+сен 25 10:47:37 queryberry kernel: tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes)
+сен 25 10:47:37 queryberry kernel: TCP established hash table entries: 32768 (order: 6, 262144 bytes)
+сен 25 10:47:37 queryberry kernel: TCP bind hash table entries: 32768 (order: 7, 524288 bytes)
+сен 25 10:47:37 queryberry kernel: TCP: Hash tables configured (established 32768 bind 32768)
+сен 25 10:47:37 queryberry kernel: UDP hash table entries: 2048 (order: 4, 65536 bytes)
+сен 25 10:47:37 queryberry kernel: UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes)
+сен 25 10:47:37 queryberry kernel: NET: Registered protocol family 1
+сен 25 10:47:37 queryberry kernel: NET: Registered protocol family 44
+сен 25 10:47:37 queryberry kernel: pci 0000:00:03.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mpci 0000:00:04.4: HCRESET not completed yet![0m
+сен 25 10:47:37 queryberry kernel: pci 0000:00:06.0: disabled boot interrupts on device [1166:0205]
+сен 25 10:47:37 queryberry kernel: PCI Interrupt Link [IUSB] enabled at IRQ 5
+сен 25 10:47:37 queryberry kernel: pci 0000:00:07.0: quirk_usb_early_handoff+0x0/0x6c1 took 76994 usecs
+сен 25 10:47:37 queryberry kernel: pci 0000:00:07.1: quirk_usb_early_handoff+0x0/0x6c1 took 78013 usecs
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mPCI: CLS 64 bytes, default 64[0m
+сен 25 10:47:37 queryberry kernel: Unpacking initramfs...
+сен 25 10:47:37 queryberry kernel: Freeing initrd memory: 35948K
+сен 25 10:47:37 queryberry kernel: PCI-DMA: Disabling AGP.
+сен 25 10:47:37 queryberry kernel: PCI-DMA: aperture base @ c4000000 size 65536 KB
+сен 25 10:47:37 queryberry kernel: PCI-DMA: using GART IOMMU.
+сен 25 10:47:37 queryberry kernel: PCI-DMA: Reserving 64MB of IOMMU area in the AGP aperture
+сен 25 10:47:37 queryberry kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mInitialise system trusted keyrings[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mKey type blacklist registered[0m
+сен 25 10:47:37 queryberry kernel: workingset: timestamp_bits=40 max_order=20 bucket_order=0
+сен 25 10:47:37 queryberry kernel: zbud: loaded
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mKey type asymmetric registered[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mAsymmetric key parser 'x509' registered[0m
+сен 25 10:47:37 queryberry kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+сен 25 10:47:37 queryberry kernel: io scheduler noop registered
+сен 25 10:47:37 queryberry kernel: io scheduler deadline registered
+сен 25 10:47:37 queryberry kernel: io scheduler cfq registered (default)
+сен 25 10:47:37 queryberry kernel: io scheduler mq-deadline registered
+сен 25 10:47:37 queryberry kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+сен 25 10:47:37 queryberry kernel: [0;1;31m[0;1;39m[0;1;31mERST: Failed to get Error Log Address Range.[0m
+сен 25 10:47:37 queryberry kernel: GHES: APEI firmware first mode is enabled by WHEA _OSC.
+сен 25 10:47:37 queryberry kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+сен 25 10:47:37 queryberry kernel: 00:03: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+сен 25 10:47:37 queryberry kernel: serial8250: ttyS1 at I/O 0x2f8 (irq = 3, base_baud = 115200) is a 16550A
+сен 25 10:47:37 queryberry kernel: Linux agpgart interface v0.103
+сен 25 10:47:37 queryberry kernel: AMD IOMMUv2 driver by Joerg Roedel <jroedel@suse.de>
+сен 25 10:47:37 queryberry kernel: AMD IOMMUv2 functionality not available on this system
+сен 25 10:47:37 queryberry kernel: i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f0e:PS2M] at 0x60,0x64 irq 1,12
+сен 25 10:47:37 queryberry kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+сен 25 10:47:37 queryberry kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+сен 25 10:47:37 queryberry kernel: mousedev: PS/2 mouse device common for all mice
+сен 25 10:47:37 queryberry kernel: rtc_cmos rtc_cmos: RTC can wake from S4
+сен 25 10:47:37 queryberry kernel: rtc_cmos rtc_cmos: registered as rtc0
+сен 25 10:47:37 queryberry kernel: rtc_cmos rtc_cmos: alarms up to one month, y3k, 114 bytes nvram, hpet irqs
+сен 25 10:47:37 queryberry kernel: ledtrig-cpu: registered to indicate activity on CPUs
+сен 25 10:47:37 queryberry kernel: NET: Registered protocol family 10
+сен 25 10:47:37 queryberry kernel: Segment Routing with IPv6
+сен 25 10:47:37 queryberry kernel: mip6: Mobile IPv6
+сен 25 10:47:37 queryberry kernel: NET: Registered protocol family 17
+сен 25 10:47:37 queryberry kernel: mpls_gso: MPLS GSO support
+сен 25 10:47:37 queryberry kernel: mce: Using 5 MCE banks
+сен 25 10:47:37 queryberry kernel: registered taskstats version 1
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mLoading compiled-in X.509 certificates[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mLoaded X.509 cert 'Debian Secure Boot CA: 6ccece7e4c6c0d1f6149f3dd27dfcc5cbb419ea1'[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mLoaded X.509 cert 'Debian Secure Boot Signer: 00a7468def'[0m
+сен 25 10:47:37 queryberry kernel: zswap: loaded using pool lzo/zbud
+сен 25 10:47:37 queryberry kernel: AppArmor: AppArmor sha1 policy hashing enabled
+сен 25 10:47:37 queryberry kernel: rtc_cmos rtc_cmos: setting system clock to 2019-09-25 07:47:31 UTC (1569397651)
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mUnstable clock detected, switching default tracing clock to "global"[0m
+                                      [0;1;39mIf you want to keep using the local clock, then add:[0m
+                                      [0;1;39m  "trace_clock=local"[0m
+                                      [0;1;39mon the kernel command line[0m
+сен 25 10:47:37 queryberry kernel: Freeing unused kernel image memory: 1584K
+сен 25 10:47:37 queryberry kernel: Write protecting the kernel read-only data: 16384k
+сен 25 10:47:37 queryberry kernel: Freeing unused kernel image memory: 2028K
+сен 25 10:47:37 queryberry kernel: Freeing unused kernel image memory: 772K
+сен 25 10:47:37 queryberry kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+сен 25 10:47:37 queryberry kernel: Run /init as init process
+сен 25 10:47:37 queryberry kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input2
+сен 25 10:47:37 queryberry kernel: ACPI: Power Button [PWRF]
+сен 25 10:47:37 queryberry kernel: piix4_smbus 0000:00:06.0: SMBus Host Controller at 0x580, revision 0
+сен 25 10:47:37 queryberry kernel: e1000e: Intel(R) PRO/1000 Network Driver - 3.2.6-k
+сен 25 10:47:37 queryberry kernel: e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+сен 25 10:47:37 queryberry kernel: e1000e 0000:05:00.0: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mSCSI subsystem initialized[0m
+сен 25 10:47:37 queryberry kernel: ACPI: bus type USB registered
+сен 25 10:47:37 queryberry kernel: usbcore: registered new interface driver usbfs
+сен 25 10:47:37 queryberry kernel: usbcore: registered new interface driver hub
+сен 25 10:47:37 queryberry kernel: usbcore: registered new device driver usb
+сен 25 10:47:37 queryberry kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+сен 25 10:47:37 queryberry kernel: uhci_hcd: USB Universal Host Controller Interface driver
+сен 25 10:47:37 queryberry kernel: ehci-pci: EHCI PCI platform driver
+сен 25 10:47:37 queryberry kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+сен 25 10:47:37 queryberry kernel: uhci_hcd 0000:00:04.4: UHCI Host Controller
+сен 25 10:47:37 queryberry kernel: uhci_hcd 0000:00:04.4: new USB bus registered, assigned bus number 1
+сен 25 10:47:37 queryberry kernel: uhci_hcd 0000:00:04.4: detected 8 ports
+сен 25 10:47:37 queryberry kernel: uhci_hcd 0000:00:04.4: port count misdetected? forcing to 2 ports
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39muhci_hcd 0000:00:04.4: HCRESET not completed yet![0m
+сен 25 10:47:37 queryberry kernel: uhci_hcd 0000:00:04.4: irq 27, io base 0x00001800
+сен 25 10:47:37 queryberry kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 4.19
+сен 25 10:47:37 queryberry kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+сен 25 10:47:37 queryberry kernel: usb usb1: Product: UHCI Host Controller
+сен 25 10:47:37 queryberry kernel: usb usb1: Manufacturer: Linux 4.19.0-6-amd64 uhci_hcd
+сен 25 10:47:37 queryberry kernel: usb usb1: SerialNumber: 0000:00:04.4
+сен 25 10:47:37 queryberry kernel: hub 1-0:1.0: USB hub found
+сен 25 10:47:37 queryberry kernel: hub 1-0:1.0: 2 ports detected
+сен 25 10:47:37 queryberry kernel: ehci-pci 0000:00:07.2: EHCI Host Controller
+сен 25 10:47:37 queryberry kernel: ehci-pci 0000:00:07.2: new USB bus registered, assigned bus number 2
+сен 25 10:47:37 queryberry kernel: ehci-pci 0000:00:07.2: irq 5, io mem 0xf7ec0000
+сен 25 10:47:37 queryberry kernel: HP HPSA Driver (v 3.4.20-125)
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mhpsa 0000:0b:00.0: legacy board ID: 0x3234103c[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mhpsa 0000:0b:00.0: legacy board ID: 0x3234103c[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mhpsa 0000:0b:00.0: can't disable ASPM; OS doesn't have ASPM control[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mhpsa 0000:0b:00.0: Physical aborts not supported[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mhpsa 0000:0b:00.0: Logical aborts not supported[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mhpsa 0000:0b:00.0: HP SSD Smart Path aborts not supported[0m
+сен 25 10:47:37 queryberry kernel: bnx2: QLogic bnx2 Gigabit Ethernet Driver v2.2.6 (January 29, 2014)
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mlibata version 3.00 loaded.[0m
+сен 25 10:47:37 queryberry kernel: ehci-pci 0000:00:07.2: USB 2.0 started, EHCI 1.00
+сен 25 10:47:37 queryberry kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 4.19
+сен 25 10:47:37 queryberry kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+сен 25 10:47:37 queryberry kernel: usb usb2: Product: EHCI Host Controller
+сен 25 10:47:37 queryberry kernel: usb usb2: Manufacturer: Linux 4.19.0-6-amd64 ehci_hcd
+сен 25 10:47:37 queryberry kernel: usb usb2: SerialNumber: 0000:00:07.2
+сен 25 10:47:37 queryberry kernel: hub 2-0:1.0: USB hub found
+сен 25 10:47:37 queryberry kernel: hub 2-0:1.0: 4 ports detected
+сен 25 10:47:37 queryberry kernel: ohci-pci: OHCI PCI platform driver
+сен 25 10:47:37 queryberry kernel: ohci-pci 0000:00:07.0: OHCI PCI host controller
+сен 25 10:47:37 queryberry kernel: ohci-pci 0000:00:07.0: new USB bus registered, assigned bus number 3
+сен 25 10:47:37 queryberry kernel: ohci-pci 0000:00:07.0: irq 5, io mem 0xf7ee0000
+сен 25 10:47:37 queryberry kernel: scsi host0: pata_serverworks
+сен 25 10:47:37 queryberry kernel: scsi host1: pata_serverworks
+сен 25 10:47:37 queryberry kernel: ata1: PATA max UDMA/66 cmd 0x1f0 ctl 0x3f6 bmdma 0x500 irq 14
+сен 25 10:47:37 queryberry kernel: ata2: PATA max UDMA/66 cmd 0x170 ctl 0x376 bmdma 0x508 irq 15
+сен 25 10:47:37 queryberry kernel: usb usb3: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 4.19
+сен 25 10:47:37 queryberry kernel: usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+сен 25 10:47:37 queryberry kernel: usb usb3: Product: OHCI PCI host controller
+сен 25 10:47:37 queryberry kernel: usb usb3: Manufacturer: Linux 4.19.0-6-amd64 ohci_hcd
+сен 25 10:47:37 queryberry kernel: usb usb3: SerialNumber: 0000:00:07.0
+сен 25 10:47:37 queryberry kernel: scsi host2: hpsa
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mhpsa can't handle SMP requests[0m
+сен 25 10:47:37 queryberry kernel: hub 3-0:1.0: USB hub found
+сен 25 10:47:37 queryberry kernel: hub 3-0:1.0: 2 ports detected
+сен 25 10:47:37 queryberry kernel: ohci-pci 0000:00:07.1: OHCI PCI host controller
+сен 25 10:47:37 queryberry kernel: ohci-pci 0000:00:07.1: new USB bus registered, assigned bus number 4
+сен 25 10:47:37 queryberry kernel: ohci-pci 0000:00:07.1: irq 5, io mem 0xf7ed0000
+сен 25 10:47:37 queryberry kernel: hpsa 0000:0b:00.0: scsi 2:0:0:0: masked Direct-Access     HP       DG072BB975       PHYS DRV SSDSmartPathCap- En- Exp=0
+сен 25 10:47:37 queryberry kernel: hpsa 0000:0b:00.0: scsi 2:0:1:0: masked Direct-Access     HP       DG072BB975       PHYS DRV SSDSmartPathCap- En- Exp=0
+сен 25 10:47:37 queryberry kernel: hpsa 0000:0b:00.0: scsi 2:1:0:0: added Direct-Access     HP       LOGICAL VOLUME   RAID-1(+0) SSDSmartPathCap- En- Exp=1
+сен 25 10:47:37 queryberry kernel: hpsa 0000:0b:00.0: scsi 2:3:0:0: added RAID              HP       P400             controller SSDSmartPathCap- En- Exp=1
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mscsi 2:1:0:0: Direct-Access     HP       LOGICAL VOLUME   5.20 PQ: 0 ANSI: 5[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mscsi 2:3:0:0: RAID              HP       P400             5.20 PQ: 0 ANSI: 0[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39msd 2:1:0:0: [sda] 143299800 512-byte logical blocks: (73.4 GB/68.3 GiB)[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39msd 2:1:0:0: [sda] Write Protect is off[0m
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37msd 2:1:0:0: [sda] Mode Sense: 6b 00 00 08[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39msd 2:1:0:0: [sda] Write cache: disabled, read cache: disabled, doesn't support DPO or FUA[0m
+сен 25 10:47:37 queryberry kernel: [drm] radeon kernel modesetting enabled.
+сен 25 10:47:37 queryberry kernel: [drm] initializing kernel modesetting (RV100 0x1002:0x515E 0x103C:0x31FB 0x02).
+сен 25 10:47:37 queryberry kernel: radeon 0000:00:03.0: VRAM: 128M 0x00000000E8000000 - 0x00000000EFFFFFFF (32M used)
+сен 25 10:47:37 queryberry kernel: radeon 0000:00:03.0: GTT: 512M 0x00000000C8000000 - 0x00000000E7FFFFFF
+сен 25 10:47:37 queryberry kernel: [drm] Detected VRAM RAM=128M, BAR=128M
+сен 25 10:47:37 queryberry kernel: [drm] RAM width 16bits DDR
+сен 25 10:47:37 queryberry kernel: [TTM] Zone  kernel: Available graphics memory: 2019970 kiB
+сен 25 10:47:37 queryberry kernel: [TTM] Initializing pool allocator
+сен 25 10:47:37 queryberry kernel: [TTM] Initializing DMA pool allocator
+сен 25 10:47:37 queryberry kernel: [drm] radeon: 32M of VRAM memory ready
+сен 25 10:47:37 queryberry kernel: [drm] radeon: 512M of GTT memory ready.
+сен 25 10:47:37 queryberry kernel: [drm] GART: num cpu pages 131072, num gpu pages 131072
+сен 25 10:47:37 queryberry kernel:  sda: sda1 sda2 < sda5 >
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39msd 2:1:0:0: [sda] Attached SCSI disk[0m
+сен 25 10:47:37 queryberry kernel: [drm] PCI GART of 512M enabled (table at 0x0000000035C80000).
+сен 25 10:47:37 queryberry kernel: radeon 0000:00:03.0: WB disabled
+сен 25 10:47:37 queryberry kernel: radeon 0000:00:03.0: fence driver on ring 0 use gpu addr 0x00000000c8000000 and cpu addr 0x(____ptrval____)
+сен 25 10:47:37 queryberry kernel: [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+сен 25 10:47:37 queryberry kernel: [drm] Driver supports precise vblank timestamp query.
+сен 25 10:47:37 queryberry kernel: [drm] radeon: irq initialized.
+сен 25 10:47:37 queryberry kernel: [drm] Loading R100 Microcode
+сен 25 10:47:37 queryberry kernel: [0;1;31m[0;1;39m[0;1;31mradeon 0000:00:03.0: firmware: failed to load radeon/R100_cp.bin (-2)[0m
+сен 25 10:47:37 queryberry kernel: [0;1;31m[0;1;39m[0;1;31mfirmware_class: See https://wiki.debian.org/Firmware for information about missing firmware[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mradeon 0000:00:03.0: Direct firmware load for radeon/R100_cp.bin failed with error -2[0m
+сен 25 10:47:37 queryberry kernel: [0;1;31m[0;1;39m[0;1;31m[drm:r100_cp_init [radeon]] *ERROR* Failed to load firmware![0m
+сен 25 10:47:37 queryberry kernel: [0;1;31m[0;1;39m[0;1;31mradeon 0000:00:03.0: failed initializing CP (-2).[0m
+сен 25 10:47:37 queryberry kernel: [0;1;31m[0;1;39m[0;1;31mradeon 0000:00:03.0: Disabling GPU acceleration[0m
+сен 25 10:47:37 queryberry kernel: [drm] radeon: cp finalized
+сен 25 10:47:37 queryberry kernel: e1000e 0000:05:00.0 eth0: (PCI Express:2.5GT/s:Width x4) 00:1f:29:60:46:fa
+сен 25 10:47:37 queryberry kernel: e1000e 0000:05:00.0 eth0: Intel(R) PRO/1000 Network Connection
+сен 25 10:47:37 queryberry kernel: e1000e 0000:05:00.0 eth0: MAC: 0, PHY: 4, PBA No: D51930-004
+сен 25 10:47:37 queryberry kernel: [drm] No TV DAC info found in BIOS
+сен 25 10:47:37 queryberry kernel: [drm] Radeon Display Connectors
+сен 25 10:47:37 queryberry kernel: [drm] Connector 0:
+сен 25 10:47:37 queryberry kernel: [drm]   VGA-1
+сен 25 10:47:37 queryberry kernel: [drm]   DDC: 0x60 0x60 0x60 0x60 0x60 0x60 0x60 0x60
+сен 25 10:47:37 queryberry kernel: [drm]   Encoders:
+сен 25 10:47:37 queryberry kernel: [drm]     CRT1: INTERNAL_DAC1
+сен 25 10:47:37 queryberry kernel: [drm] Connector 1:
+сен 25 10:47:37 queryberry kernel: [drm]   VGA-2
+сен 25 10:47:37 queryberry kernel: [drm]   DDC: 0x6c 0x6c 0x6c 0x6c 0x6c 0x6c 0x6c 0x6c
+сен 25 10:47:37 queryberry kernel: [drm]   Encoders:
+сен 25 10:47:37 queryberry kernel: [drm]     CRT2: INTERNAL_DAC2
+сен 25 10:47:37 queryberry kernel: usb usb4: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 4.19
+сен 25 10:47:37 queryberry kernel: usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+сен 25 10:47:37 queryberry kernel: usb usb4: Product: OHCI PCI host controller
+сен 25 10:47:37 queryberry kernel: usb usb4: Manufacturer: Linux 4.19.0-6-amd64 ohci_hcd
+сен 25 10:47:37 queryberry kernel: usb usb4: SerialNumber: 0000:00:07.1
+сен 25 10:47:37 queryberry kernel: hub 4-0:1.0: USB hub found
+сен 25 10:47:37 queryberry kernel: hub 4-0:1.0: 2 ports detected
+сен 25 10:47:37 queryberry kernel: [drm] fb mappable at 0xE8040000
+сен 25 10:47:37 queryberry kernel: [drm] vram apper at 0xE8000000
+сен 25 10:47:37 queryberry kernel: [drm] size 1572864
+сен 25 10:47:37 queryberry kernel: [drm] fb depth is 16
+сен 25 10:47:37 queryberry kernel: [drm]    pitch is 2048
+сен 25 10:47:37 queryberry kernel: fbcon: radeondrmfb (fb0) is primary device
+сен 25 10:47:37 queryberry kernel: ata1.00: ATAPI: TSSTcorpDVD-ROM TS-L332A, HG00, max UDMA/33
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mscsi 0:0:0:0: CD-ROM            TSSTcorp DVD-ROM TS-L332A HG00 PQ: 0 ANSI: 5[0m
+сен 25 10:47:37 queryberry kernel: Console: switching to colour frame buffer device 128x48
+сен 25 10:47:37 queryberry kernel: radeon 0000:00:03.0: fb0: radeondrmfb frame buffer device
+сен 25 10:47:37 queryberry kernel: e1000e 0000:05:00.1: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
+сен 25 10:47:37 queryberry kernel: [drm] Initialized radeon 2.50.0 20080528 for 0000:00:03.0 on minor 0
+сен 25 10:47:37 queryberry kernel: sr 0:0:0:0: [sr0] scsi3-mmc drive: 24x/24x cd/rw xa/form2 cdda tray
+сен 25 10:47:37 queryberry kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37msr 0:0:0:0: Attached scsi CD-ROM sr0[0m
+сен 25 10:47:37 queryberry kernel: usb 1-1: new full-speed USB device number 2 using uhci_hcd
+сен 25 10:47:37 queryberry kernel: e1000e 0000:05:00.1 eth1: (PCI Express:2.5GT/s:Width x4) 00:1f:29:60:46:fb
+сен 25 10:47:37 queryberry kernel: e1000e 0000:05:00.1 eth1: Intel(R) PRO/1000 Network Connection
+сен 25 10:47:37 queryberry kernel: e1000e 0000:05:00.1 eth1: MAC: 0, PHY: 4, PBA No: D51930-004
+сен 25 10:47:37 queryberry kernel: e1000e 0000:08:00.0: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
+сен 25 10:47:37 queryberry kernel: usb 1-1: New USB device found, idVendor=03f0, idProduct=1027, bcdDevice= 0.02
+сен 25 10:47:37 queryberry kernel: usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+сен 25 10:47:37 queryberry kernel: usb 1-1: Product: Virtual Keyboard
+сен 25 10:47:37 queryberry kernel: usb 1-1: Manufacturer: HP
+сен 25 10:47:37 queryberry kernel: hidraw: raw HID events driver (C) Jiri Kosina
+сен 25 10:47:37 queryberry kernel: usbcore: registered new interface driver usbhid
+сен 25 10:47:37 queryberry kernel: usbhid: USB HID core driver
+сен 25 10:47:37 queryberry kernel: input: HP Virtual Keyboard as /devices/pci0000:00/0000:00:04.4/usb1/1-1/1-1:1.0/0003:03F0:1027.0001/input/input4
+сен 25 10:47:37 queryberry kernel: e1000e 0000:08:00.0 eth2: (PCI Express:2.5GT/s:Width x4) 00:1f:29:60:48:62
+сен 25 10:47:37 queryberry kernel: e1000e 0000:08:00.0 eth2: Intel(R) PRO/1000 Network Connection
+сен 25 10:47:37 queryberry kernel: e1000e 0000:08:00.0 eth2: MAC: 0, PHY: 4, PBA No: D51930-004
+сен 25 10:47:37 queryberry kernel: e1000e 0000:08:00.1: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
+сен 25 10:47:37 queryberry kernel: hid-generic 0003:03F0:1027.0001: input,hidraw0: USB HID v1.01 Keyboard [HP Virtual Keyboard] on usb-0000:00:04.4-1/input0
+сен 25 10:47:37 queryberry kernel: input: HP Virtual Keyboard as /devices/pci0000:00/0000:00:04.4/usb1/1-1/1-1:1.1/0003:03F0:1027.0002/input/input5
+сен 25 10:47:37 queryberry kernel: bnx2 0000:04:00.0 eth3: Broadcom NetXtreme II BCM5708 1000Base-T (B2) PCI-X 64-bit 133MHz found at mem f8000000, IRQ 20, node addr 00:21:5a:ec:db:36
+сен 25 10:47:37 queryberry kernel: hid-generic 0003:03F0:1027.0002: input,hidraw1: USB HID v1.01 Mouse [HP Virtual Keyboard] on usb-0000:00:04.4-1/input1
+сен 25 10:47:37 queryberry kernel: usb 1-2: new full-speed USB device number 3 using uhci_hcd
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mrandom: fast init done[0m
+сен 25 10:47:37 queryberry kernel: usb 4-1: new full-speed USB device number 2 using ohci-pci
+сен 25 10:47:37 queryberry kernel: e1000e 0000:08:00.1 eth4: (PCI Express:2.5GT/s:Width x4) 00:1f:29:60:48:63
+сен 25 10:47:37 queryberry kernel: e1000e 0000:08:00.1 eth4: Intel(R) PRO/1000 Network Connection
+сен 25 10:47:37 queryberry kernel: e1000e 0000:08:00.1 eth4: MAC: 0, PHY: 4, PBA No: D51930-004
+сен 25 10:47:37 queryberry kernel: usb 1-2: New USB device found, idVendor=03f0, idProduct=1327, bcdDevice= 0.01
+сен 25 10:47:37 queryberry kernel: usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+сен 25 10:47:37 queryberry kernel: usb 1-2: Product: Virtual Hub
+сен 25 10:47:37 queryberry kernel: usb 1-2: Manufacturer: HP
+сен 25 10:47:37 queryberry kernel: hub 1-2:1.0: USB hub found
+сен 25 10:47:37 queryberry kernel: hub 1-2:1.0: 7 ports detected
+сен 25 10:47:37 queryberry kernel: usb 4-1: not running at top speed; connect to a high speed hub
+сен 25 10:47:37 queryberry kernel: usb 4-1: New USB device found, idVendor=04b4, idProduct=6560, bcdDevice= 0.07
+сен 25 10:47:37 queryberry kernel: usb 4-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+сен 25 10:47:37 queryberry kernel: hub 4-1:1.0: USB hub found
+сен 25 10:47:37 queryberry kernel: hub 4-1:1.0: 4 ports detected
+сен 25 10:47:37 queryberry kernel: bnx2 0000:42:00.0 eth5: Broadcom NetXtreme II BCM5708 1000Base-T (B2) PCI-X 64-bit 133MHz found at mem fc000000, IRQ 24, node addr 00:21:5a:ec:db:34
+сен 25 10:47:37 queryberry kernel: raid6: sse2x1   gen()  3260 MB/s
+сен 25 10:47:37 queryberry kernel: raid6: sse2x1   xor()  2750 MB/s
+сен 25 10:47:37 queryberry kernel: raid6: sse2x2   gen()  4162 MB/s
+сен 25 10:47:37 queryberry kernel: raid6: sse2x2   xor()  3088 MB/s
+сен 25 10:47:37 queryberry kernel: raid6: sse2x4   gen()  4574 MB/s
+сен 25 10:47:37 queryberry kernel: raid6: sse2x4   xor()  2218 MB/s
+сен 25 10:47:37 queryberry kernel: raid6: using algorithm sse2x4 gen() 4574 MB/s
+сен 25 10:47:37 queryberry kernel: raid6: .... xor() 2218 MB/s, rmw enabled
+сен 25 10:47:37 queryberry kernel: raid6: using intx1 recovery algorithm
+сен 25 10:47:37 queryberry kernel: xor: measuring software checksum speed
+сен 25 10:47:37 queryberry kernel:    prefetch64-sse:  6814.000 MB/sec
+сен 25 10:47:37 queryberry kernel:    generic_sse:  6804.000 MB/sec
+сен 25 10:47:37 queryberry kernel: xor: using function: prefetch64-sse (6814.000 MB/sec)
+сен 25 10:47:37 queryberry kernel: Btrfs loaded, crc32c=crc32c-generic
+сен 25 10:47:37 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mPM: Image not found (code -22)[0m
+сен 25 10:47:37 queryberry kernel: cryptd: max_cpu_qlen set to 1000
+сен 25 10:47:37 queryberry kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+сен 25 10:47:37 queryberry systemd[1]: Inserted module 'autofs4'
+сен 25 10:47:37 queryberry systemd[1]: systemd 241 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN2 +IDN -PCRE2 default-hierarchy=hybrid)
+сен 25 10:47:37 queryberry systemd[1]: Detected architecture x86-64.
+сен 25 10:47:37 queryberry systemd[1]: Set hostname to <queryberry>.
+сен 25 10:47:37 queryberry systemd[1]: [0;1;39m[0;1;31m[0;1;39mFailed to bump fs.file-max, ignoring: Invalid argument[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mrandom: systemd: uninitialized urandom read (16 bytes read)[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mrandom: systemd: uninitialized urandom read (16 bytes read)[0m
+сен 25 10:47:37 queryberry systemd[1]: Created slice User and Session Slice.
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mrandom: systemd: uninitialized urandom read (16 bytes read)[0m
+сен 25 10:47:37 queryberry systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+сен 25 10:47:37 queryberry systemd[1]: Created slice system-getty.slice.
+сен 25 10:47:37 queryberry systemd[1]: Listening on fsck to fsckd communication Socket.
+сен 25 10:47:37 queryberry systemd[1]: Listening on Journal Socket.
+сен 25 10:47:37 queryberry systemd[1]: Listening on initctl Compatibility Named Pipe.
+сен 25 10:47:37 queryberry kernel: EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+сен 25 10:47:37 queryberry systemd-journald[241]: Journal started
+-- Subject: Запущена служба журналирования
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс, отвечающий за журналирование системных событий, успешно запустился,
+-- открыл для записи файлы журнала, и готов обрабатывать запросы.
+сен 25 10:47:37 queryberry systemd-journald[241]: Runtime journal (/run/log/journal/4ff0d47839aa48ee89cf424675e948ea) is 4.9M, max 39.4M, 34.5M free.
+-- Subject: Место на диске, занятое журналом
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Runtime journal (/run/log/journal/4ff0d47839aa48ee89cf424675e948ea) сейчас занимает 4.9M.
+-- Максимальный разрешенный размер составляет 39.4M.
+-- Оставляем свободными как минимум 59.1M (сейчас на диске
+-- свободно 386.8M).
+-- Таким образом, предел использования составляет 39.4M, из которых
+-- 34.5M пока свободно.
+-- 
+-- Ограничения на размер журнала настраиваются при помощи параметров
+-- SystemMaxUse=, SystemKeepFree=, SystemMaxFileSize=, RuntimeMaxUse=,
+-- RuntimeKeepFree=, RuntimeMaxFileSize= в файле /etc/systemd/journald.conf.
+-- Более подробные сведения вы можете получить на справочной странице
+-- journald.conf(5).
+сен 25 10:47:37 queryberry systemd-tmpfiles[253]: [0;1;39m[0;1;31m[0;1;39m[/usr/lib/tmpfiles.d/speech-dispatcher.conf:1] Line references path below legacy directory /var/run/, updating /var/run/speech-dispatcher → /run/speech-dispatcher; please update the tmpfiles.d/ drop-in file accordingly.[0m
+сен 25 10:47:37 queryberry systemd-tmpfiles[253]: [0;1;39m[0;1;31m[0;1;39m[/usr/lib/tmpfiles.d/speech-dispatcher.conf:2] Line references path below legacy directory /var/run/, updating /var/run/speech-dispatcher/.cache → /run/speech-dispatcher/.cache; please update the tmpfiles.d/ drop-in file accordingly.[0m
+сен 25 10:47:37 queryberry systemd-tmpfiles[253]: [0;1;39m[0;1;31m[0;1;39m[/usr/lib/tmpfiles.d/speech-dispatcher.conf:3] Line references path below legacy directory /var/run/, updating /var/run/speech-dispatcher/.speech-dispatcher → /run/speech-dispatcher/.speech-dispatcher; please update the tmpfiles.d/ drop-in file accordingly.[0m
+сен 25 10:47:37 queryberry systemd-tmpfiles[253]: [0;1;39m[0;1;31m[0;1;39m[/usr/lib/tmpfiles.d/speech-dispatcher.conf:4] Line references path below legacy directory /var/run/, updating /var/run/speech-dispatcher/.cache/speech-dispatcher → /run/speech-dispatcher/.cache/speech-dispatcher; please update the tmpfiles.d/ drop-in file accordingly.[0m
+сен 25 10:47:37 queryberry systemd-tmpfiles[253]: [0;1;39m[0;1;31m[0;1;39m[/usr/lib/tmpfiles.d/speech-dispatcher.conf:5] Line references path below legacy directory /var/run/, updating /var/run/speech-dispatcher/log → /run/speech-dispatcher/log; please update the tmpfiles.d/ drop-in file accordingly.[0m
+сен 25 10:47:37 queryberry systemd[1]: Starting Flush Journal to Persistent Storage...
+-- Subject: Начинается запуск юнита systemd-journal-flush.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита systemd-journal-flush.service.
+сен 25 10:47:37 queryberry systemd[1]: Started Set console font and keymap.
+-- Subject: Запуск юнита console-setup.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита console-setup.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:37 queryberry systemd-udevd[259]: Network interface NamePolicy= disabled on kernel command line, ignoring.
+сен 25 10:47:37 queryberry systemd-journald[241]: Runtime journal (/run/log/journal/4ff0d47839aa48ee89cf424675e948ea) is 4.9M, max 39.4M, 34.5M free.
+-- Subject: Место на диске, занятое журналом
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Runtime journal (/run/log/journal/4ff0d47839aa48ee89cf424675e948ea) сейчас занимает 4.9M.
+-- Максимальный разрешенный размер составляет 39.4M.
+-- Оставляем свободными как минимум 59.1M (сейчас на диске
+-- свободно 386.8M).
+-- Таким образом, предел использования составляет 39.4M, из которых
+-- 34.5M пока свободно.
+-- 
+-- Ограничения на размер журнала настраиваются при помощи параметров
+-- SystemMaxUse=, SystemKeepFree=, SystemMaxFileSize=, RuntimeMaxUse=,
+-- RuntimeKeepFree=, RuntimeMaxFileSize= в файле /etc/systemd/journald.conf.
+-- Более подробные сведения вы можете получить на справочной странице
+-- journald.conf(5).
+сен 25 10:47:37 queryberry systemd[1]: Received SIGRTMIN+20 from PID 164 (plymouthd).
+сен 25 10:47:37 queryberry systemd[1]: plymouth-read-write.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The unit plymouth-read-write.service has successfully entered the 'dead' state.
+сен 25 10:47:37 queryberry systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+-- Subject: Запуск юнита plymouth-read-write.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита plymouth-read-write.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:37 queryberry systemd[1]: Started Flush Journal to Persistent Storage.
+-- Subject: Запуск юнита systemd-journal-flush.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита systemd-journal-flush.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:37 queryberry systemd[1]: Starting Create Volatile Files and Directories...
+-- Subject: Начинается запуск юнита systemd-tmpfiles-setup.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита systemd-tmpfiles-setup.service.
+сен 25 10:47:37 queryberry apparmor.systemd[254]: Restarting AppArmor
+сен 25 10:47:37 queryberry apparmor.systemd[254]: Reloading AppArmor profiles
+сен 25 10:47:37 queryberry systemd-tmpfiles[263]: [0;1;39m[0;1;31m[0;1;39m[/usr/lib/tmpfiles.d/speech-dispatcher.conf:1] Line references path below legacy directory /var/run/, updating /var/run/speech-dispatcher → /run/speech-dispatcher; please update the tmpfiles.d/ drop-in file accordingly.[0m
+сен 25 10:47:37 queryberry systemd-tmpfiles[263]: [0;1;39m[0;1;31m[0;1;39m[/usr/lib/tmpfiles.d/speech-dispatcher.conf:2] Line references path below legacy directory /var/run/, updating /var/run/speech-dispatcher/.cache → /run/speech-dispatcher/.cache; please update the tmpfiles.d/ drop-in file accordingly.[0m
+сен 25 10:47:37 queryberry systemd-tmpfiles[263]: [0;1;39m[0;1;31m[0;1;39m[/usr/lib/tmpfiles.d/speech-dispatcher.conf:3] Line references path below legacy directory /var/run/, updating /var/run/speech-dispatcher/.speech-dispatcher → /run/speech-dispatcher/.speech-dispatcher; please update the tmpfiles.d/ drop-in file accordingly.[0m
+сен 25 10:47:37 queryberry systemd-tmpfiles[263]: [0;1;39m[0;1;31m[0;1;39m[/usr/lib/tmpfiles.d/speech-dispatcher.conf:4] Line references path below legacy directory /var/run/, updating /var/run/speech-dispatcher/.cache/speech-dispatcher → /run/speech-dispatcher/.cache/speech-dispatcher; please update the tmpfiles.d/ drop-in file accordingly.[0m
+сен 25 10:47:37 queryberry systemd-tmpfiles[263]: [0;1;39m[0;1;31m[0;1;39m[/usr/lib/tmpfiles.d/speech-dispatcher.conf:5] Line references path below legacy directory /var/run/, updating /var/run/speech-dispatcher/log → /run/speech-dispatcher/log; please update the tmpfiles.d/ drop-in file accordingly.[0m
+сен 25 10:47:37 queryberry systemd[1]: Started Create Volatile Files and Directories.
+-- Subject: Запуск юнита systemd-tmpfiles-setup.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита systemd-tmpfiles-setup.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:37 queryberry systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+-- Subject: Начинается запуск юнита systemd-update-utmp.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита systemd-update-utmp.service.
+сен 25 10:47:37 queryberry systemd[1]: Starting Network Time Synchronization...
+-- Subject: Начинается запуск юнита systemd-timesyncd.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита systemd-timesyncd.service.
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng init done[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mrandom: 7 urandom warning(s) missed due to ratelimiting[0m
+сен 25 10:47:37 queryberry systemd[1]: Started Update UTMP about System Boot/Shutdown.
+-- Subject: Запуск юнита systemd-update-utmp.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита systemd-update-utmp.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:37 queryberry systemd[1]: Started udev Kernel Device Manager.
+-- Subject: Запуск юнита systemd-udevd.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита systemd-udevd.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:37 queryberry systemd[1]: Starting Show Plymouth Boot Screen...
+-- Subject: Начинается запуск юнита plymouth-start.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита plymouth-start.service.
+сен 25 10:47:37 queryberry systemd[1]: plymouth-start.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The unit plymouth-start.service has successfully entered the 'dead' state.
+сен 25 10:47:37 queryberry systemd[1]: Started Show Plymouth Boot Screen.
+-- Subject: Запуск юнита plymouth-start.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита plymouth-start.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:37 queryberry systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+-- Subject: Запуск юнита systemd-ask-password-plymouth.path завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита systemd-ask-password-plymouth.path был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:37 queryberry systemd[1]: Condition check resulted in Dispatch Password Requests to Console Directory Watch being skipped.
+-- Subject: Запуск юнита systemd-ask-password-console.path завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита systemd-ask-password-console.path был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:37 queryberry systemd[1]: Reached target Local Encrypted Volumes.
+-- Subject: Запуск юнита cryptsetup.target завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита cryptsetup.target был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:37 queryberry systemd[1]: Reached target Paths.
+-- Subject: Запуск юнита paths.target завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита paths.target был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1569397657.920:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=282 comm="apparmor_parser"[0m
+сен 25 10:47:37 queryberry audit[282]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=282 comm="apparmor_parser"
+сен 25 10:47:37 queryberry audit[282]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=282 comm="apparmor_parser"
+сен 25 10:47:37 queryberry audit[282]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=282 comm="apparmor_parser"
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1569397657.920:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=282 comm="apparmor_parser"[0m
+сен 25 10:47:37 queryberry kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1569397657.920:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=282 comm="apparmor_parser"[0m
+сен 25 10:47:38 queryberry audit[283]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=283 comm="apparmor_parser"
+сен 25 10:47:38 queryberry audit[283]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=283 comm="apparmor_parser"
+сен 25 10:47:38 queryberry kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1569397658.008:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=283 comm="apparmor_parser"[0m
+сен 25 10:47:38 queryberry kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1569397658.008:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=283 comm="apparmor_parser"[0m
+сен 25 10:47:38 queryberry kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1569397658.016:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/haveged" pid=307 comm="apparmor_parser"[0m
+сен 25 10:47:38 queryberry audit[307]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/haveged" pid=307 comm="apparmor_parser"
+сен 25 10:47:38 queryberry audit[300]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-senddoc" pid=300 comm="apparmor_parser"
+сен 25 10:47:38 queryberry kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1569397658.088:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-senddoc" pid=300 comm="apparmor_parser"[0m
+сен 25 10:47:38 queryberry systemd[1]: Started Network Time Synchronization.
+-- Subject: Запуск юнита systemd-timesyncd.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита systemd-timesyncd.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:38 queryberry systemd[1]: Reached target System Time Synchronized.
+-- Subject: Запуск юнита time-sync.target завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита time-sync.target был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:38 queryberry audit[309]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-oopslash" pid=309 comm="apparmor_parser"
+сен 25 10:47:38 queryberry kernel: hpwdt 0000:00:04.0: HPE Watchdog Timer Driver: NMI decoding initialized
+сен 25 10:47:38 queryberry kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1569397658.144:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-oopslash" pid=309 comm="apparmor_parser"[0m
+сен 25 10:47:38 queryberry kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1569397658.144:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=308 comm="apparmor_parser"[0m
+сен 25 10:47:38 queryberry audit[308]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=308 comm="apparmor_parser"
+сен 25 10:47:38 queryberry audit[281]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/x86_64-linux-gnu/lightdm/lightdm-guest-session" pid=281 comm="apparmor_parser"
+сен 25 10:47:38 queryberry kernel: hpwdt 0000:00:04.0: HPE Watchdog Timer Driver: 2.0.0, timer margin: 30 seconds (nowayout=0).
+сен 25 10:47:38 queryberry kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1569397658.152:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/x86_64-linux-gnu/lightdm/lightdm-guest-session" pid=281 comm="apparmor_parser"[0m
+сен 25 10:47:38 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mk8temp 0000:00:18.3: Temperature readouts might be wrong - check erratum #141[0m
+сен 25 10:47:38 queryberry audit[281]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/x86_64-linux-gnu/lightdm/lightdm-guest-session//chromium" pid=281 comm="apparmor_parser"
+сен 25 10:47:38 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mk8temp 0000:00:18.3: hwmon_device_register() is deprecated. Please convert the driver to use hwmon_device_register_with_info().[0m
+сен 25 10:47:38 queryberry kernel: version 39.2
+сен 25 10:47:38 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mk8temp 0000:00:19.3: Temperature readouts might be wrong - check erratum #141[0m
+сен 25 10:47:38 queryberry audit[280]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-soffice" pid=280 comm="apparmor_parser"
+сен 25 10:47:38 queryberry audit[280]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-soffice//gpg" pid=280 comm="apparmor_parser"
+сен 25 10:47:38 queryberry systemd[1]: Started Load AppArmor profiles.
+-- Subject: Запуск юнита apparmor.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита apparmor.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:38 queryberry systemd[1]: Started Entropy daemon using the HAVEGE algorithm.
+-- Subject: Запуск юнита haveged.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита haveged.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:38 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mk8temp 0000:00:19.3: hwmon_device_register() is deprecated. Please convert the driver to use hwmon_device_register_with_info().[0m
+сен 25 10:47:38 queryberry kernel: ipmi device interface
+сен 25 10:47:38 queryberry kernel: IPMI System Interface driver.
+сен 25 10:47:38 queryberry kernel: ipmi_si dmi-ipmi-si.0: ipmi_platform: probing via SMBIOS
+сен 25 10:47:38 queryberry kernel: ipmi_si: SMBIOS: io 0xca2 regsize 1 spacing 1 irq 0
+сен 25 10:47:38 queryberry systemd-udevd[273]: Using default interface naming scheme 'v240'.
+сен 25 10:47:38 queryberry systemd-udevd[297]: Using default interface naming scheme 'v240'.
+сен 25 10:47:38 queryberry kernel: ipmi_si: Adding SMBIOS-specified kcs state machine
+сен 25 10:47:38 queryberry kernel: ipmi_si IPI0001:00: ipmi_platform: probing via ACPI
+сен 25 10:47:38 queryberry systemd-udevd[284]: Using default interface naming scheme 'v240'.
+сен 25 10:47:38 queryberry systemd-udevd[302]: Using default interface naming scheme 'v240'.
+сен 25 10:47:38 queryberry systemd-udevd[278]: Using default interface naming scheme 'v240'.
+сен 25 10:47:38 queryberry systemd-udevd[271]: Using default interface naming scheme 'v240'.
+сен 25 10:47:38 queryberry kernel: ipmi_si IPI0001:00: [io  0x0ca2-0x0ca3] regsize 1 spacing 1 irq 0
+сен 25 10:47:38 queryberry systemd-udevd[297]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+сен 25 10:47:38 queryberry systemd-udevd[284]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+сен 25 10:47:38 queryberry systemd-udevd[278]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+сен 25 10:47:38 queryberry systemd-udevd[273]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+сен 25 10:47:38 queryberry systemd-udevd[302]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+сен 25 10:47:38 queryberry systemd-udevd[271]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+сен 25 10:47:38 queryberry kernel: ipmi_si dmi-ipmi-si.0: Removing SMBIOS-specified kcs state machine in favor of ACPI
+сен 25 10:47:38 queryberry kernel: ipmi_si: Adding ACPI-specified kcs state machine
+сен 25 10:47:38 queryberry kernel: ipmi_si 0000:00:04.6: probing via PCI
+сен 25 10:47:38 queryberry kernel: input: PC Speaker as /devices/platform/pcspkr/input/input6
+сен 25 10:47:38 queryberry kernel: [0;1;31m[0;1;39m[0;1;31m(NULL device *): Could not setup I/O space[0m
+сен 25 10:47:38 queryberry kernel: ipmi_si 0000:00:04.6: [mem 0xf7ef0000-0xf7ef00ff] regsize 1 spacing 1 irq 36
+сен 25 10:47:38 queryberry kernel: [0;1;39m[0;1;31m[0;1;39msd 2:1:0:0: Attached scsi generic sg0 type 0[0m
+сен 25 10:47:38 queryberry kernel: ipmi_si: Adding PCI-specified kcs state machine
+сен 25 10:47:38 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mscsi 2:3:0:0: Attached scsi generic sg1 type 12[0m
+сен 25 10:47:38 queryberry kernel: ipmi_si: Trying PCI-specified kcs state machine at mem address 0xf7ef0000, slave address 0x0, irq 36
+сен 25 10:47:38 queryberry kernel: [0;1;39m[0;1;31m[0;1;39msr 0:0:0:0: Attached scsi generic sg2 type 5[0m
+сен 25 10:47:38 queryberry systemd-udevd[278]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+сен 25 10:47:38 queryberry systemd[1]: Found device LOGICAL_VOLUME 5.
+-- Subject: Запуск юнита dev-disk-by\x2duuid-c7ff37e7\x2dab1d\x2d426e\x2d9b27\x2d32f9269aada7.device завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита dev-disk-by\x2duuid-c7ff37e7\x2dab1d\x2d426e\x2d9b27\x2d32f9269aada7.device был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:38 queryberry systemd[1]: Activating swap /dev/disk/by-uuid/c7ff37e7-ab1d-426e-9b27-32f9269aada7...
+-- Subject: Начинается запуск юнита dev-disk-by\x2duuid-c7ff37e7\x2dab1d\x2d426e\x2d9b27\x2d32f9269aada7.swap
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита dev-disk-by\x2duuid-c7ff37e7\x2dab1d\x2d426e\x2d9b27\x2d32f9269aada7.swap.
+сен 25 10:47:38 queryberry haveged[312]: haveged: ver: 1.9.1; arch: x86; vend: AuthenticAMD; build: (gcc 8.3.0 ITV); collect: 128K
+сен 25 10:47:38 queryberry haveged[312]: haveged: cpu: (A8 VC); data: 64K (A5 V); inst: 64K (A5 V); idx: 39/40; sz: 52825/52825
+сен 25 10:47:38 queryberry haveged[312]: haveged: tot tests(BA8): A:1/1 B:1/1 continuous tests(B):  last entropy estimate 7.997
+сен 25 10:47:38 queryberry haveged[312]: haveged: fills: 0, generated: 0
+сен 25 10:47:38 queryberry kernel: Adding 4190204k swap on /dev/sda5.  Priority:-2 extents:1 across:4190204k FS
+сен 25 10:47:39 queryberry systemd[1]: Activated swap /dev/disk/by-uuid/c7ff37e7-ab1d-426e-9b27-32f9269aada7.
+-- Subject: Запуск юнита dev-disk-by\x2duuid-c7ff37e7\x2dab1d\x2d426e\x2d9b27\x2d32f9269aada7.swap завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита dev-disk-by\x2duuid-c7ff37e7\x2dab1d\x2d426e\x2d9b27\x2d32f9269aada7.swap был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Reached target Swap.
+-- Subject: Запуск юнита swap.target завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита swap.target был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Reached target System Initialization.
+-- Subject: Запуск юнита sysinit.target завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита sysinit.target был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Listening on D-Bus System Message Bus Socket.
+-- Subject: Запуск юнита dbus.socket завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита dbus.socket был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Started Daily rotation of log files.
+-- Subject: Запуск юнита logrotate.timer завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита logrotate.timer был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+-- Subject: Запуск юнита avahi-daemon.socket завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита avahi-daemon.socket был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Started Clean PHP session files every 30 mins.
+-- Subject: Запуск юнита phpsessionclean.timer завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита phpsessionclean.timer был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry kernel: [0;1;31m[0;1;39m[0;1;31mkvm: disabled by bios[0m
+сен 25 10:47:39 queryberry systemd[1]: Started Run certbot twice daily.
+-- Subject: Запуск юнита certbot.timer завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита certbot.timer был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Listening on UUID daemon activation socket.
+-- Subject: Запуск юнита uuidd.socket завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита uuidd.socket был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Reached target Sockets.
+-- Subject: Запуск юнита sockets.target завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита sockets.target был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Started Daily man-db regeneration.
+-- Subject: Запуск юнита man-db.timer завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита man-db.timer был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry kernel: ipmi_si 0000:00:04.6: Using irq 36
+сен 25 10:47:39 queryberry systemd[1]: Started Daily Cleanup of Temporary Directories.
+-- Subject: Запуск юнита systemd-tmpfiles-clean.timer завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита systemd-tmpfiles-clean.timer был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry kernel: ipmi_si 0000:00:04.6: Found new BMC (man_id: 0x00000b, prod_id: 0x0000, dev_id: 0x11)
+сен 25 10:47:39 queryberry systemd[1]: Started Daily apt download activities.
+-- Subject: Запуск юнита apt-daily.timer завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита apt-daily.timer был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Started Daily apt upgrade and clean activities.
+-- Subject: Запуск юнита apt-daily-upgrade.timer завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита apt-daily-upgrade.timer был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry kernel: ipmi_si 0000:00:04.6: IPMI kcs interface initialized
+сен 25 10:47:39 queryberry systemd[1]: Started Trigger anacron every hour.
+-- Subject: Запуск юнита anacron.timer завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита anacron.timer был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Reached target Timers.
+-- Subject: Запуск юнита timers.target завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита timers.target был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Reached target Basic System.
+-- Subject: Запуск юнита basic.target завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита basic.target был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Starting Restore /etc/resolv.conf if the system crashed before the ppp link was shut down...
+-- Subject: Начинается запуск юнита pppd-dns.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита pppd-dns.service.
+сен 25 10:47:39 queryberry kernel: [0;1;31m[0;1;39m[0;1;31mkvm: disabled by bios[0m
+сен 25 10:47:39 queryberry kernel: IPMI SSIF Interface driver
+сен 25 10:47:39 queryberry systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+-- Subject: Запуск юнита getty-static.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита getty-static.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Starting Login Service...
+-- Subject: Начинается запуск юнита systemd-logind.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита systemd-logind.service.
+сен 25 10:47:39 queryberry systemd[1]: Starting Modem Manager...
+-- Subject: Начинается запуск юнита ModemManager.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита ModemManager.service.
+сен 25 10:47:39 queryberry systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+-- Subject: Начинается запуск юнита avahi-daemon.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита avahi-daemon.service.
+сен 25 10:47:39 queryberry kernel: MCE: In-kernel MCE decoding enabled.
+сен 25 10:47:39 queryberry systemd[1]: Started D-Bus System Message Bus.
+-- Subject: Запуск юнита dbus.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита dbus.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Starting Network Manager...
+-- Subject: Начинается запуск юнита NetworkManager.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита NetworkManager.service.
+сен 25 10:47:39 queryberry systemd[1]: Starting WPA supplicant...
+-- Subject: Начинается запуск юнита wpa_supplicant.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита wpa_supplicant.service.
+сен 25 10:47:39 queryberry kernel: [0;1;31m[0;1;39m[0;1;31mkvm: disabled by bios[0m
+сен 25 10:47:39 queryberry systemd-logind[369]: New seat seat0.
+-- Subject: Добавлено новое рабочее место seat0
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- Новое рабочее место (seat) seat0 полностью настроено и готово к
+-- использованию.
+сен 25 10:47:39 queryberry kernel: EDAC amd64: Node 0: DRAM ECC enabled.
+сен 25 10:47:39 queryberry kernel: EDAC amd64: K8 revF or later detected (node 0).
+сен 25 10:47:39 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mEDAC MC: DCT0 chip selects:[0m
+сен 25 10:47:39 queryberry kernel: EDAC amd64: MC: 0:  2048MB 1:  2048MB
+сен 25 10:47:39 queryberry kernel: EDAC amd64: MC: 2:     0MB 3:     0MB
+сен 25 10:47:39 queryberry kernel: EDAC amd64: MC: 4:     0MB 5:     0MB
+сен 25 10:47:39 queryberry kernel: EDAC amd64: MC: 6:     0MB 7:     0MB
+сен 25 10:47:39 queryberry kernel: EDAC amd64: using x4 syndromes.
+сен 25 10:47:39 queryberry kernel: EDAC MC0: Giving out device to module amd64_edac controller K8: DEV 0000:00:18.3 (INTERRUPT)
+сен 25 10:47:39 queryberry kernel: EDAC amd64: Node 1: DRAM ECC enabled.
+сен 25 10:47:39 queryberry kernel: EDAC amd64: K8 revF or later detected (node 1).
+сен 25 10:47:39 queryberry kernel: [0;2;37m[0;1;31m[0;2;37mEDAC MC: DCT0 chip selects:[0m
+сен 25 10:47:39 queryberry kernel: EDAC amd64: MC: 0:     0MB 1:     0MB
+сен 25 10:47:39 queryberry kernel: EDAC amd64: MC: 2:     0MB 3:     0MB
+сен 25 10:47:39 queryberry kernel: EDAC amd64: MC: 4:     0MB 5:     0MB
+сен 25 10:47:39 queryberry kernel: EDAC amd64: MC: 6:     0MB 7:     0MB
+сен 25 10:47:39 queryberry kernel: EDAC amd64: using x4 syndromes.
+сен 25 10:47:39 queryberry kernel: EDAC MC1: Giving out device to module amd64_edac controller K8: DEV 0000:00:19.3 (INTERRUPT)
+сен 25 10:47:39 queryberry kernel: EDAC PCI0: Giving out device to module amd64_edac controller EDAC PCI controller: DEV 0000:00:18.2 (POLLED)
+сен 25 10:47:39 queryberry kernel: AMD64 EDAC driver v3.5.0
+сен 25 10:47:39 queryberry kernel: [0;1;31m[0;1;39m[0;1;31mkvm: disabled by bios[0m
+сен 25 10:47:39 queryberry systemd[1]: Started Regular background program processing daemon.
+-- Subject: Запуск юнита cron.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита cron.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry cron[383]: (CRON) INFO (pidfile fd = 3)
+сен 25 10:47:39 queryberry systemd[1]: Starting Initialize hardware monitoring sensors...
+-- Subject: Начинается запуск юнита lm-sensors.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита lm-sensors.service.
+сен 25 10:47:39 queryberry systemd-logind[369]: Watching system buttons on /dev/input/event0 (Power Button)
+сен 25 10:47:39 queryberry systemd-logind[369]: Watching system buttons on /dev/input/event1 (HP Virtual Keyboard)
+сен 25 10:47:39 queryberry kernel: powernow_k8: fid 0x10 (2400 MHz), vid 0xa
+сен 25 10:47:39 queryberry kernel: powernow_k8: fid 0xe (2200 MHz), vid 0xc
+сен 25 10:47:39 queryberry kernel: powernow_k8: fid 0xc (2000 MHz), vid 0xe
+сен 25 10:47:39 queryberry kernel: powernow_k8: fid 0xa (1800 MHz), vid 0x10
+сен 25 10:47:39 queryberry kernel: powernow_k8: fid 0x2 (1000 MHz), vid 0x12
+сен 25 10:47:39 queryberry kernel: powernow_k8: fid 0x10 (2400 MHz), vid 0xa
+сен 25 10:47:39 queryberry kernel: powernow_k8: fid 0xe (2200 MHz), vid 0xc
+сен 25 10:47:39 queryberry avahi-daemon[372]: Found user 'avahi' (UID 112) and group 'avahi' (GID 120).
+сен 25 10:47:39 queryberry avahi-daemon[372]: Successfully dropped root privileges.
+сен 25 10:47:39 queryberry avahi-daemon[372]: avahi-daemon 0.7 starting up.
+сен 25 10:47:39 queryberry ModemManager[371]: <info>  ModemManager (version 1.10.0) starting in system bus...
+сен 25 10:47:39 queryberry kernel: powernow_k8: fid 0xc (2000 MHz), vid 0xe
+сен 25 10:47:39 queryberry kernel: powernow_k8: fid 0xa (1800 MHz), vid 0x10
+сен 25 10:47:39 queryberry kernel: powernow_k8: fid 0x2 (1000 MHz), vid 0x12
+сен 25 10:47:39 queryberry kernel: powernow_k8: Found 2 Dual-Core AMD Opteron(tm) Processor 2216 (4 cpu cores) (version 2.20.00)
+сен 25 10:47:39 queryberry systemd[1]: Started Run anacron jobs.
+-- Subject: Запуск юнита anacron.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита anacron.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: Starting System Logging Service...
+-- Subject: Начинается запуск юнита rsyslog.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита rsyslog.service.
+сен 25 10:47:39 queryberry systemd[1]: Starting Disk Manager...
+-- Subject: Начинается запуск юнита udisks2.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита udisks2.service.
+сен 25 10:47:39 queryberry systemd[1]: Started Helper to synchronize boot up for ifupdown.
+-- Subject: Запуск юнита ifupdown-pre.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита ifupdown-pre.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry systemd[1]: pppd-dns.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The unit pppd-dns.service has successfully entered the 'dead' state.
+сен 25 10:47:39 queryberry systemd[1]: Started Restore /etc/resolv.conf if the system crashed before the ppp link was shut down.
+-- Subject: Запуск юнита pppd-dns.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита pppd-dns.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:39 queryberry anacron[390]: [0;1;39m[0;1;31m[0;1;39mAnacron 2.3 started on 2019-09-25[0m
+сен 25 10:47:39 queryberry cron[383]: (CRON) INFO (Running @reboot jobs)
+сен 25 10:47:39 queryberry systemd[1]: Starting Raise network interfaces...
+-- Subject: Начинается запуск юнита networking.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита networking.service.
+сен 25 10:47:39 queryberry anacron[390]: [0;1;39m[0;1;31m[0;1;39mNormal exit (0 jobs run)[0m
+сен 25 10:47:39 queryberry udisksd[392]: [0;1;39m[0;1;31m[0;1;39mudisks daemon version 2.8.1 starting[0m
+сен 25 10:47:40 queryberry rsyslogd[391]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.1901.0]
+сен 25 10:47:40 queryberry rsyslogd[391]:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="391" x-info="https://www.rsyslog.com"] start
+сен 25 10:47:40 queryberry systemd[1]: Started Login Service.
+-- Subject: Запуск юнита systemd-logind.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита systemd-logind.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:40 queryberry avahi-daemon[372]: Successfully called chroot().
+сен 25 10:47:40 queryberry avahi-daemon[372]: Successfully dropped remaining capabilities.
+сен 25 10:47:40 queryberry systemd[1]: Started System Logging Service.
+-- Subject: Запуск юнита rsyslog.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита rsyslog.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:40 queryberry wpa_supplicant[375]: [0;1;39m[0;1;31m[0;1;39mSuccessfully initialized wpa_supplicant[0m
+сен 25 10:47:40 queryberry systemd[1]: anacron.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The unit anacron.service has successfully entered the 'dead' state.
+сен 25 10:47:40 queryberry systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+-- Subject: Запуск юнита avahi-daemon.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита avahi-daemon.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:40 queryberry sensors[413]: k8temp-pci-00c3
+сен 25 10:47:40 queryberry sensors[413]: Adapter: PCI adapter
+сен 25 10:47:40 queryberry sensors[413]: Core0 Temp:   +24.0°C
+сен 25 10:47:40 queryberry sensors[413]: Core1 Temp:   +23.0°C
+сен 25 10:47:40 queryberry sensors[413]: k8temp-pci-00cb
+сен 25 10:47:40 queryberry sensors[413]: Adapter: PCI adapter
+сен 25 10:47:40 queryberry sensors[413]: Core0 Temp:   +21.0°C
+сен 25 10:47:40 queryberry sensors[413]: Core1 Temp:   +27.0°C
+сен 25 10:47:40 queryberry systemd[1]: Started Initialize hardware monitoring sensors.
+-- Subject: Запуск юнита lm-sensors.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита lm-sensors.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:40 queryberry systemd[1]: Started WPA supplicant.
+-- Subject: Запуск юнита wpa_supplicant.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита wpa_supplicant.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:40 queryberry dbus-daemon[373]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.6' (uid=0 pid=371 comm="/usr/sbin/ModemManager --filter-policy=strict ")
+сен 25 10:47:40 queryberry systemd[1]: Starting Authorization Manager...
+-- Subject: Начинается запуск юнита polkit.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита polkit.service.
+сен 25 10:47:40 queryberry avahi-daemon[372]: No service file found in /etc/avahi/services.
+сен 25 10:47:40 queryberry avahi-daemon[372]: Network interface enumeration completed.
+сен 25 10:47:40 queryberry avahi-daemon[372]: Server startup complete. Host name is queryberry.local. Local service cookie is 1212997468.
+сен 25 10:47:40 queryberry udisksd[392]: [0;1;39m[0;1;31m[0;1;39mfailed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory[0m
+сен 25 10:47:40 queryberry udisksd[392]: [0;1;39m[0;1;31m[0;1;39mFailed to load the 'mdraid' libblockdev plugin[0m
+сен 25 10:47:40 queryberry polkitd[421]: started daemon version 0.105 using authority implementation `local' version `0.105'
+сен 25 10:47:40 queryberry dbus-daemon[373]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+сен 25 10:47:40 queryberry systemd[1]: Started Authorization Manager.
+-- Subject: Запуск юнита polkit.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита polkit.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:40 queryberry dhclient[455]: Internet Systems Consortium DHCP Client 4.4.1
+сен 25 10:47:40 queryberry ifup[393]: Internet Systems Consortium DHCP Client 4.4.1
+сен 25 10:47:40 queryberry ifup[393]: Copyright 2004-2018 Internet Systems Consortium.
+сен 25 10:47:40 queryberry ifup[393]: All rights reserved.
+сен 25 10:47:40 queryberry ifup[393]: For info, please visit https://www.isc.org/software/dhcp/
+сен 25 10:47:40 queryberry dhclient[455]: Copyright 2004-2018 Internet Systems Consortium.
+сен 25 10:47:40 queryberry dhclient[455]: All rights reserved.
+сен 25 10:47:40 queryberry dhclient[455]: For info, please visit https://www.isc.org/software/dhcp/
+сен 25 10:47:40 queryberry dhclient[455]: 
+сен 25 10:47:40 queryberry NetworkManager[374]: <info>  [1569397660.7179] NetworkManager (version 1.14.6) is starting... (for the first time)
+сен 25 10:47:40 queryberry NetworkManager[374]: <info>  [1569397660.7182] Read config: /etc/NetworkManager/NetworkManager.conf (lib: no-mac-addr-change.conf)
+сен 25 10:47:40 queryberry systemd[1]: Started Network Manager.
+-- Subject: Запуск юнита NetworkManager.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита NetworkManager.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:40 queryberry NetworkManager[374]: <info>  [1569397660.7999] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+сен 25 10:47:40 queryberry systemd[1]: Starting Network Manager Wait Online...
+-- Subject: Начинается запуск юнита NetworkManager-wait-online.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита NetworkManager-wait-online.service.
+сен 25 10:47:40 queryberry NetworkManager[374]: <info>  [1569397660.8151] manager[0x55854fe69030]: monitoring kernel firmware directory '/lib/firmware'.
+сен 25 10:47:40 queryberry NetworkManager[374]: <info>  [1569397660.8152] monitoring ifupdown state file '/run/network/ifstate'.
+сен 25 10:47:40 queryberry dbus-daemon[373]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.8' (uid=0 pid=374 comm="/usr/sbin/NetworkManager --no-daemon ")
+сен 25 10:47:40 queryberry systemd[1]: Starting Hostname Service...
+-- Subject: Начинается запуск юнита systemd-hostnamed.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита systemd-hostnamed.service.
+сен 25 10:47:40 queryberry systemd[1]: Started Modem Manager.
+-- Subject: Запуск юнита ModemManager.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита ModemManager.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:41 queryberry kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+сен 25 10:47:41 queryberry dhclient[455]: Listening on LPF/eth0/00:1f:29:60:46:fa
+сен 25 10:47:41 queryberry dhclient[455]: Sending on   LPF/eth0/00:1f:29:60:46:fa
+сен 25 10:47:41 queryberry ifup[393]: Listening on LPF/eth0/00:1f:29:60:46:fa
+сен 25 10:47:41 queryberry ifup[393]: Sending on   LPF/eth0/00:1f:29:60:46:fa
+сен 25 10:47:41 queryberry ifup[393]: Sending on   Socket/fallback
+сен 25 10:47:41 queryberry ifup[393]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+сен 25 10:47:41 queryberry dhclient[455]: Sending on   Socket/fallback
+сен 25 10:47:41 queryberry dhclient[455]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+сен 25 10:47:41 queryberry udisksd[392]: [0;1;39m[0;1;31m[0;1;39mAcquired the name org.freedesktop.UDisks2 on the system message bus[0m
+сен 25 10:47:41 queryberry systemd[1]: Started Disk Manager.
+-- Subject: Запуск юнита udisks2.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита udisks2.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:41 queryberry dbus-daemon[373]: [system] Successfully activated service 'org.freedesktop.hostname1'
+сен 25 10:47:41 queryberry systemd[1]: Started Hostname Service.
+-- Subject: Запуск юнита systemd-hostnamed.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита systemd-hostnamed.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.2420] hostname: hostname: using hostnamed
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.2423] hostname: hostname changed from (none) to "queryberry"
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.2428] dns-mgr[0x55854fe740f0]: init: dns=default, rc-manager=resolvconf
+сен 25 10:47:41 queryberry dbus-daemon[373]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.8' (uid=0 pid=374 comm="/usr/sbin/NetworkManager --no-daemon ")
+сен 25 10:47:41 queryberry systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Начинается запуск юнита NetworkManager-dispatcher.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита NetworkManager-dispatcher.service.
+сен 25 10:47:41 queryberry dbus-daemon[373]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+сен 25 10:47:41 queryberry systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Запуск юнита NetworkManager-dispatcher.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита NetworkManager-dispatcher.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3554] ifupdown:       interface-parser: parsing file /etc/network/interfaces
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3555] ifupdown:       interface-parser: source line includes interfaces file(s) /etc/network/interfaces.d/*
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3556] ifupdown:       interface-parser: parsing file /etc/network/interfaces.d/setup
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3557] ifupdown:       interface-parser: finished parsing file /etc/network/interfaces.d/setup
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3558] ifupdown:       interface-parser: finished parsing file /etc/network/interfaces
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3574] ifupdown: guessed connection type (eth0) = 802-3-ethernet
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3576] ifupdown: update_connection_setting_from_if_block: name:eth0, type:802-3-ethernet, id:Ifupdown (eth0), uuid: 681b428f-beaf-8932-dce4-687ed5bae28e
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3589] ifupdown: management mode: managed
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3590] settings: Loaded settings plugin: SettingsPluginIfupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.14.6/libnm-settings-plugin-ifupdown.so")
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3591] settings: Loaded settings plugin: NMSKeyfilePlugin (internal)
+сен 25 10:47:41 queryberry NetworkManager[374]: [0;1;31m[0;1;39m[0;1;31m((src/settings/nm-settings.c:899)): assertion '<dropped>' failed[0m
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3658] keyfile: new connection /etc/NetworkManager/system-connections/Автоматический Ethernet.nmconnection (138cb2ff-32f0-4f40-8538-e18041083883,"Автоматический Ethernet")
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3744] manager: rfkill: WiFi enabled by radio killswitch; enabled by state file
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3747] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3748] manager: Networking is enabled by state file
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3751] dhcp-init: Using DHCP client 'dhclient'
+сен 25 10:47:41 queryberry nm-dispatcher[475]: req:1 'hostname': new request (1 scripts)
+сен 25 10:47:41 queryberry nm-dispatcher[475]: req:1 'hostname': start running ordered scripts...
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.3981] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.14.6/libnm-device-plugin-bluetooth.so)
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.4269] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.14.6/libnm-device-plugin-team.so)
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.4296] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.14.6/libnm-device-plugin-wifi.so)
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.4310] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.14.6/libnm-device-plugin-adsl.so)
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.4325] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.14.6/libnm-device-plugin-wwan.so)
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.4350] device (lo): carrier: link connected
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.4357] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.4374] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.4394] device (eth0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+сен 25 10:47:41 queryberry kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.4493] manager: (eth1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/3)
+сен 25 10:47:41 queryberry nm-dispatcher[475]: req:2 'connectivity-change': new request (1 scripts)
+сен 25 10:47:41 queryberry nm-dispatcher[475]: req:2 'connectivity-change': start running ordered scripts...
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.4518] device (eth1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+сен 25 10:47:41 queryberry kernel: IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready
+сен 25 10:47:41 queryberry kernel: IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.7289] manager: (eth2): new Ethernet device (/org/freedesktop/NetworkManager/Devices/4)
+сен 25 10:47:41 queryberry NetworkManager[374]: <info>  [1569397661.7308] device (eth2): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+сен 25 10:47:41 queryberry kernel: IPv6: ADDRCONF(NETDEV_UP): eth2: link is not ready
+сен 25 10:47:42 queryberry kernel: IPv6: ADDRCONF(NETDEV_UP): eth2: link is not ready
+сен 25 10:47:42 queryberry NetworkManager[374]: <info>  [1569397662.0053] manager: (eth3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/5)
+сен 25 10:47:42 queryberry NetworkManager[374]: <info>  [1569397662.0079] device (eth3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+сен 25 10:47:42 queryberry kernel: IPv6: ADDRCONF(NETDEV_UP): eth3: link is not ready
+сен 25 10:47:42 queryberry kernel: [0;1;31m[0;1;39m[0;1;31mbnx2 0000:04:00.0: firmware: failed to load bnx2/bnx2-mips-06-6.2.3.fw (-2)[0m
+сен 25 10:47:42 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mbnx2 0000:04:00.0: Direct firmware load for bnx2/bnx2-mips-06-6.2.3.fw failed with error -2[0m
+сен 25 10:47:42 queryberry NetworkManager[374]: [0;1;39m[0;1;31m[0;1;39m<warn>  [1569397662.0352] device (eth3): firmware may be missing.[0m
+сен 25 10:47:42 queryberry NetworkManager[374]: <info>  [1569397662.0403] manager: (eth4): new Ethernet device (/org/freedesktop/NetworkManager/Devices/6)
+сен 25 10:47:42 queryberry NetworkManager[374]: <info>  [1569397662.0424] device (eth4): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+сен 25 10:47:42 queryberry kernel: IPv6: ADDRCONF(NETDEV_UP): eth4: link is not ready
+сен 25 10:47:42 queryberry kernel: IPv6: ADDRCONF(NETDEV_UP): eth4: link is not ready
+сен 25 10:47:42 queryberry NetworkManager[374]: <info>  [1569397662.3172] manager: (eth5): new Ethernet device (/org/freedesktop/NetworkManager/Devices/7)
+сен 25 10:47:42 queryberry NetworkManager[374]: <info>  [1569397662.3204] device (eth5): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+сен 25 10:47:42 queryberry kernel: IPv6: ADDRCONF(NETDEV_UP): eth5: link is not ready
+сен 25 10:47:42 queryberry kernel: [0;1;31m[0;1;39m[0;1;31mbnx2 0000:42:00.0: firmware: failed to load bnx2/bnx2-mips-06-6.2.3.fw (-2)[0m
+сен 25 10:47:42 queryberry kernel: [0;1;39m[0;1;31m[0;1;39mbnx2 0000:42:00.0: Direct firmware load for bnx2/bnx2-mips-06-6.2.3.fw failed with error -2[0m
+сен 25 10:47:42 queryberry NetworkManager[374]: [0;1;39m[0;1;31m[0;1;39m<warn>  [1569397662.3382] device (eth5): firmware may be missing.[0m
+сен 25 10:47:42 queryberry NetworkManager[374]: <info>  [1569397662.3502] manager: NetworkManager state is now CONNECTED_GLOBAL
+сен 25 10:47:42 queryberry NetworkManager[374]: <info>  [1569397662.3639] modem-manager: ModemManager available
+сен 25 10:47:43 queryberry kernel: e1000e: eth2 NIC Link is Up 100 Mbps Full Duplex, Flow Control: Rx/Tx
+сен 25 10:47:43 queryberry kernel: e1000e 0000:08:00.0 eth2: 10/100 speed: disabling TSO
+сен 25 10:47:43 queryberry kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth2: link becomes ready
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.2797] device (eth2): carrier: link connected
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.2809] device (eth2): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.2832] policy: auto-activating connection 'Автоматический Ethernet' (138cb2ff-32f0-4f40-8538-e18041083883)
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.2847] device (eth2): Activation: starting connection 'Автоматический Ethernet' (138cb2ff-32f0-4f40-8538-e18041083883)
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.2849] device (eth2): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.2858] device (eth2): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.2872] device (eth2): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.2884] dhcp4 (eth2): activation: beginning transaction (timeout in 45 seconds)
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.2962] dhcp4 (eth2): dhclient started with pid 481
+сен 25 10:47:43 queryberry avahi-daemon[372]: Joining mDNS multicast group on interface eth2.IPv6 with address fe80::c85b:8063:a156:51b0.
+сен 25 10:47:43 queryberry avahi-daemon[372]: New relevant interface eth2.IPv6 for mDNS.
+сен 25 10:47:43 queryberry avahi-daemon[372]: Registering new address record for fe80::c85b:8063:a156:51b0 on eth2.*.
+сен 25 10:47:43 queryberry dhclient[481]: DHCPREQUEST for 192.168.88.35 on eth2 to 255.255.255.255 port 67
+сен 25 10:47:43 queryberry dhclient[481]: DHCPACK of 192.168.88.35 from 192.168.88.1
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.3780] dhcp4 (eth2):   address 192.168.88.35
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.3781] dhcp4 (eth2):   plen 24 (255.255.255.0)
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.3781] dhcp4 (eth2):   gateway 192.168.88.1
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.3782] dhcp4 (eth2):   lease time 600
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.3782] dhcp4 (eth2):   nameserver '192.168.88.1'
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.3782] dhcp4 (eth2):   nameserver '8.8.8.8'
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.3783] dhcp4 (eth2):   nameserver '8.8.4.4'
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.3783] dhcp4 (eth2): state changed unknown -> bound
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.3800] device (eth2): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+сен 25 10:47:43 queryberry avahi-daemon[372]: Joining mDNS multicast group on interface eth2.IPv4 with address 192.168.88.35.
+сен 25 10:47:43 queryberry avahi-daemon[372]: New relevant interface eth2.IPv4 for mDNS.
+сен 25 10:47:43 queryberry avahi-daemon[372]: Registering new address record for 192.168.88.35 on eth2.IPv4.
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.3851] device (eth2): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.3855] device (eth2): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+сен 25 10:47:43 queryberry dhclient[481]: bound to 192.168.88.35 -- renewal in 248 seconds.
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.4253] policy: set 'Автоматический Ethernet' (eth2) as default for IPv4 routing and DNS
+сен 25 10:47:43 queryberry ModemManager[371]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:0f.0/0000:05:00.0': not supported by any plugin
+сен 25 10:47:43 queryberry ModemManager[371]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:0f.0/0000:05:00.1': not supported by any plugin
+сен 25 10:47:43 queryberry ModemManager[371]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:10.0/0000:08:00.0': not supported by any plugin
+сен 25 10:47:43 queryberry ModemManager[371]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:10.0/0000:08:00.1': not supported by any plugin
+сен 25 10:47:43 queryberry ModemManager[371]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:13.0/0000:03:00.0/0000:04:00.0': not supported by any plugin
+сен 25 10:47:43 queryberry ModemManager[371]: <info>  Couldn't check support for device '/sys/devices/pci0000:40/0000:40:12.0/0000:41:00.0/0000:42:00.0': not supported by any plugin
+сен 25 10:47:43 queryberry NetworkManager[374]: <info>  [1569397663.4668] device (eth2): Activation: successful, device activated.
+сен 25 10:47:43 queryberry nm-dispatcher[475]: req:3 'up' [eth2]: new request (1 scripts)
+сен 25 10:47:43 queryberry nm-dispatcher[475]: req:3 'up' [eth2]: start running ordered scripts...
+сен 25 10:47:43 queryberry nm-dispatcher[475]: req:4 'connectivity-change': new request (1 scripts)
+сен 25 10:47:44 queryberry nm-dispatcher[475]: req:4 'connectivity-change': start running ordered scripts...
+сен 25 10:47:47 queryberry dhclient[455]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+сен 25 10:47:47 queryberry ifup[393]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+сен 25 10:47:48 queryberry NetworkManager[374]: <info>  [1569397668.3108] manager: startup complete
+сен 25 10:47:48 queryberry systemd[1]: Started Network Manager Wait Online.
+-- Subject: Запуск юнита NetworkManager-wait-online.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита NetworkManager-wait-online.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:47:54 queryberry systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+сен 25 10:48:00 queryberry dhclient[455]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+сен 25 10:48:00 queryberry ifup[393]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+сен 25 10:48:08 queryberry systemd-timesyncd[268]: Synchronized to time server for the first time 80.240.216.155:123 (2.debian.pool.ntp.org).
+сен 25 10:48:09 queryberry dhclient[455]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+сен 25 10:48:09 queryberry ifup[393]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+сен 25 10:48:11 queryberry systemd[1]: systemd-hostnamed.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The unit systemd-hostnamed.service has successfully entered the 'dead' state.
+сен 25 10:48:19 queryberry dhclient[455]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+сен 25 10:48:19 queryberry ifup[393]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+сен 25 10:48:30 queryberry dhclient[455]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+сен 25 10:48:30 queryberry ifup[393]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+сен 25 10:48:43 queryberry dhclient[455]: No DHCPOFFERS received.
+сен 25 10:48:43 queryberry ifup[393]: No DHCPOFFERS received.
+сен 25 10:48:43 queryberry ifup[393]: No working leases in persistent database - sleeping.
+сен 25 10:48:43 queryberry dhclient[455]: No working leases in persistent database - sleeping.
+сен 25 10:48:43 queryberry avahi-autoipd(eth0)[548]: Found user 'avahi-autoipd' (UID 107) and group 'avahi-autoipd' (GID 113).
+сен 25 10:48:43 queryberry avahi-autoipd(eth0)[548]: Successfully called chroot().
+сен 25 10:48:43 queryberry avahi-autoipd(eth0)[548]: Successfully dropped root privileges.
+сен 25 10:48:43 queryberry avahi-autoipd(eth0)[548]: Starting with address 169.254.8.140
+сен 25 10:48:48 queryberry avahi-autoipd(eth0)[548]: Callout BIND, address 169.254.8.140 on interface eth0
+сен 25 10:48:48 queryberry avahi-daemon[372]: Joining mDNS multicast group on interface eth0.IPv4 with address 169.254.8.140.
+сен 25 10:48:48 queryberry avahi-daemon[372]: New relevant interface eth0.IPv4 for mDNS.
+сен 25 10:48:48 queryberry avahi-daemon[372]: Registering new address record for 169.254.8.140 on eth0.IPv4.
+сен 25 10:48:48 queryberry NetworkManager[374]: <info>  [1569397728.6459] keyfile: add connection /run/NetworkManager/system-connections/eth0.nmconnection (8d0167de-86ba-4546-9ace-9221b6506ab9,"eth0")
+сен 25 10:48:48 queryberry NetworkManager[374]: <info>  [1569397728.6477] device (eth0): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+сен 25 10:48:48 queryberry NetworkManager[374]: <info>  [1569397728.6509] device (eth0): Activation: starting connection 'eth0' (8d0167de-86ba-4546-9ace-9221b6506ab9)
+сен 25 10:48:48 queryberry NetworkManager[374]: <info>  [1569397728.6514] device (eth0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+сен 25 10:48:48 queryberry NetworkManager[374]: <info>  [1569397728.6530] device (eth0): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+сен 25 10:48:48 queryberry NetworkManager[374]: <info>  [1569397728.6536] device (eth0): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+сен 25 10:48:48 queryberry NetworkManager[374]: <info>  [1569397728.6540] device (eth0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+сен 25 10:48:48 queryberry NetworkManager[374]: <info>  [1569397728.6550] device (eth0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+сен 25 10:48:48 queryberry NetworkManager[374]: <info>  [1569397728.6554] device (eth0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+сен 25 10:48:48 queryberry NetworkManager[374]: <info>  [1569397728.6784] device (eth0): Activation: successful, device activated.
+сен 25 10:48:48 queryberry dbus-daemon[373]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.8' (uid=0 pid=374 comm="/usr/sbin/NetworkManager --no-daemon ")
+сен 25 10:48:48 queryberry systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Начинается запуск юнита NetworkManager-dispatcher.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита NetworkManager-dispatcher.service.
+сен 25 10:48:48 queryberry dbus-daemon[373]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+сен 25 10:48:48 queryberry systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Запуск юнита NetworkManager-dispatcher.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита NetworkManager-dispatcher.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:48 queryberry nm-dispatcher[556]: req:1 'up' [eth0]: new request (1 scripts)
+сен 25 10:48:48 queryberry nm-dispatcher[556]: req:1 'up' [eth0]: start running ordered scripts...
+сен 25 10:48:52 queryberry avahi-autoipd(eth0)[548]: Successfully claimed IP address 169.254.8.140
+сен 25 10:48:52 queryberry systemd[1]: Started Raise network interfaces.
+-- Subject: Запуск юнита networking.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита networking.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:52 queryberry systemd[1]: Reached target Network.
+-- Subject: Запуск юнита network.target завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита network.target был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:52 queryberry systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Начинается запуск юнита apache2.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита apache2.service.
+сен 25 10:48:52 queryberry systemd[1]: Reached target Network is Online.
+-- Subject: Запуск юнита network-online.target завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита network-online.target был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:52 queryberry systemd[1]: Starting LSB: disk temperature monitoring daemon...
+-- Subject: Начинается запуск юнита hddtemp.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита hddtemp.service.
+сен 25 10:48:52 queryberry systemd[1]: Starting MariaDB 10.3.17 database server...
+-- Subject: Начинается запуск юнита mariadb.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита mariadb.service.
+сен 25 10:48:52 queryberry systemd[1]: Starting OpenBSD Secure Shell server...
+-- Subject: Начинается запуск юнита ssh.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита ssh.service.
+сен 25 10:48:52 queryberry systemd[1]: Starting Permit User Sessions...
+-- Subject: Начинается запуск юнита systemd-user-sessions.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита systemd-user-sessions.service.
+сен 25 10:48:52 queryberry systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+-- Subject: Запуск юнита rsync.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита rsync.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:52 queryberry systemd[1]: Starting The PHP 7.3 FastCGI Process Manager...
+-- Subject: Начинается запуск юнита php7.3-fpm.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита php7.3-fpm.service.
+сен 25 10:48:52 queryberry systemd[1]: Started Permit User Sessions.
+-- Subject: Запуск юнита systemd-user-sessions.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита systemd-user-sessions.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:52 queryberry systemd[1]: Starting Light Display Manager...
+-- Subject: Начинается запуск юнита lightdm.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита lightdm.service.
+сен 25 10:48:52 queryberry systemd[1]: Starting Hold until boot process finishes up...
+-- Subject: Начинается запуск юнита plymouth-quit-wait.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита plymouth-quit-wait.service.
+сен 25 10:48:52 queryberry systemd[1]: Started LSB: disk temperature monitoring daemon.
+-- Subject: Запуск юнита hddtemp.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита hddtemp.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:53 queryberry sshd[649]: Server listening on 0.0.0.0 port 22.
+сен 25 10:48:53 queryberry sshd[649]: Server listening on :: port 22.
+сен 25 10:48:53 queryberry systemd[1]: Started OpenBSD Secure Shell server.
+-- Subject: Запуск юнита ssh.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита ssh.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:53 queryberry systemd[1]: Received SIGRTMIN+21 from PID 164 (plymouthd).
+сен 25 10:48:53 queryberry systemd[1]: Received SIGRTMIN+21 from PID 164 (plymouthd).
+сен 25 10:48:53 queryberry systemd[1]: plymouth-quit-wait.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The unit plymouth-quit-wait.service has successfully entered the 'dead' state.
+сен 25 10:48:53 queryberry systemd[1]: Started Hold until boot process finishes up.
+-- Subject: Запуск юнита plymouth-quit-wait.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита plymouth-quit-wait.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:53 queryberry systemd[1]: Started Getty on tty1.
+-- Subject: Запуск юнита getty@tty1.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита getty@tty1.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:53 queryberry systemd[1]: Reached target Login Prompts.
+-- Subject: Запуск юнита getty.target завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита getty.target был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:53 queryberry systemd[1]: Started Light Display Manager.
+-- Subject: Запуск юнита lightdm.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита lightdm.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:53 queryberry lightdm[636]: [0;1;39m[0;1;31m[0;1;39mError getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files[0m
+сен 25 10:48:54 queryberry mysqld[700]: 2019-09-25 10:48:54 0 [Note] /usr/sbin/mysqld (mysqld 10.3.17-MariaDB-0+deb10u1) starting as process 700 ...
+сен 25 10:48:54 queryberry apachectl[616]: AH00526: Syntax error on line 10 of /etc/apache2/sites-enabled/queryberry.site-le-ssl.conf:
+сен 25 10:48:54 queryberry apachectl[616]: SSLCertificateFile: file '/etc/letsencrypt/live/queryberry.site/fullchain.pem' does not exist or is empty
+сен 25 10:48:54 queryberry apachectl[616]: Action 'start' failed.
+сен 25 10:48:54 queryberry apachectl[616]: The Apache error log may have more information.
+сен 25 10:48:54 queryberry systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- An ExecStart= process belonging to unit apache2.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+сен 25 10:48:54 queryberry systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The unit apache2.service has entered the 'failed' state with result 'exit-code'.
+сен 25 10:48:54 queryberry systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Ошибка юнита apache2.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Произошел сбой юнита apache2.service.
+-- 
+-- Результат: failed.
+сен 25 10:48:56 queryberry systemd[1]: Started The PHP 7.3 FastCGI Process Manager.
+-- Subject: Запуск юнита php7.3-fpm.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита php7.3-fpm.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:56 queryberry /etc/mysql/debian-start[743]: Upgrading MySQL tables if necessary.
+сен 25 10:48:56 queryberry systemd[1]: Started MariaDB 10.3.17 database server.
+-- Subject: Запуск юнита mariadb.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита mariadb.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:56 queryberry systemd[1]: Reached target Multi-User System.
+-- Subject: Запуск юнита multi-user.target завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита multi-user.target был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:56 queryberry systemd[1]: Reached target Graphical Interface.
+-- Subject: Запуск юнита graphical.target завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита graphical.target был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:56 queryberry systemd[1]: Starting Update UTMP about System Runlevel Changes...
+-- Subject: Начинается запуск юнита systemd-update-utmp-runlevel.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита systemd-update-utmp-runlevel.service.
+сен 25 10:48:56 queryberry systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The unit systemd-update-utmp-runlevel.service has successfully entered the 'dead' state.
+сен 25 10:48:56 queryberry systemd[1]: Started Update UTMP about System Runlevel Changes.
+-- Subject: Запуск юнита systemd-update-utmp-runlevel.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита systemd-update-utmp-runlevel.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:56 queryberry systemd[1]: Startup finished in 6.273s (kernel) + 1min 20.859s (userspace) = 1min 27.132s.
+-- Subject: Запуск системы завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Все системные службы, запуск которых предписан настройками, были запущены.
+-- Впрочем, это ещё не означает, что система в данный момент ничем не занята,
+-- так как некоторые службы могут продолжать инициализацию даже после того, как
+-- отчитались о своем запуске.
+-- 
+-- Запуск ядра занял 6273361 микросекунд.
+-- 
+-- Процессы начального RAM-диска (initrd) отработали за INITRD_USEC микросекунд.
+-- 
+-- Запуск системных служб занял 80859100 микросекунд.
+сен 25 10:48:57 queryberry /etc/mysql/debian-start[748]: [0;1;39m[0;1;31m[0;1;39m/usr/bin/mysql_upgrade: the '--basedir' option is always ignored[0m
+сен 25 10:48:57 queryberry /etc/mysql/debian-start[748]: [0;1;39m[0;1;31m[0;1;39mLooking for 'mysql' as: /usr/bin/mysql[0m
+сен 25 10:48:57 queryberry /etc/mysql/debian-start[748]: [0;1;39m[0;1;31m[0;1;39mLooking for 'mysqlcheck' as: /usr/bin/mysqlcheck[0m
+сен 25 10:48:57 queryberry /etc/mysql/debian-start[748]: [0;1;39m[0;1;31m[0;1;39mVersion check failed. Got the following error when calling the 'mysql' command line client[0m
+сен 25 10:48:57 queryberry /etc/mysql/debian-start[748]: [0;1;39m[0;1;31m[0;1;39mERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)[0m
+сен 25 10:48:57 queryberry /etc/mysql/debian-start[748]: [0;1;39m[0;1;31m[0;1;39mFATAL ERROR: Upgrade failed[0m
+сен 25 10:48:57 queryberry /etc/mysql/debian-start[763]: Checking for insecure root accounts.
+сен 25 10:48:57 queryberry debian-start[741]: ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+сен 25 10:48:58 queryberry lightdm[773]: [0;1;39m[0;1;31m[0;1;39mError getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files[0m
+сен 25 10:48:58 queryberry lightdm[773]: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+сен 25 10:48:58 queryberry NetworkManager[374]: [0;1;31m[0;1;39m[0;1;31m((src/settings/nm-settings-connection.c:361)): assertion '<dropped>' failed[0m
+сен 25 10:48:58 queryberry NetworkManager[374]: [0;1;31m[0;1;39m[0;1;31m((src/settings/nm-settings-connection.c:361)): assertion '<dropped>' failed[0m
+сен 25 10:48:58 queryberry systemd[1]: Created slice User Slice of UID 115.
+-- Subject: Запуск юнита user-115.slice завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита user-115.slice был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry systemd[1]: Starting User Runtime Directory /run/user/115...
+-- Subject: Начинается запуск юнита user-runtime-dir@115.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита user-runtime-dir@115.service.
+сен 25 10:48:58 queryberry systemd-logind[369]: New session c1 of user lightdm.
+-- Subject: Для пользователя lightdm создан новый сеанс c1
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- Для пользователя lightdm создан новый сеанс с идентификатором c1.
+-- 
+-- Главный процесс нового сеанса имеет индентификатор 773.
+сен 25 10:48:58 queryberry NetworkManager[374]: [0;1;31m[0;1;39m[0;1;31m((src/settings/nm-settings-connection.c:361)): assertion '<dropped>' failed[0m
+сен 25 10:48:58 queryberry NetworkManager[374]: [0;1;31m[0;1;39m[0;1;31m((src/settings/nm-settings-connection.c:361)): assertion '<dropped>' failed[0m
+сен 25 10:48:58 queryberry systemd[1]: Started User Runtime Directory /run/user/115.
+-- Subject: Запуск юнита user-runtime-dir@115.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита user-runtime-dir@115.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry systemd[1]: Starting User Manager for UID 115...
+-- Subject: Начинается запуск юнита user@115.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита user@115.service.
+сен 25 10:48:58 queryberry systemd[777]: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+сен 25 10:48:58 queryberry systemd[777]: Reached target Timers.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry systemd[777]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry systemd[777]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry systemd[777]: Listening on Sound System.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry systemd[777]: Listening on GnuPG cryptographic agent and passphrase cache.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry systemd[777]: Starting D-Bus User Message Bus Socket.
+-- Subject: Начинается запуск юнита UNIT
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита UNIT.
+сен 25 10:48:58 queryberry systemd[777]: Reached target Paths.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry systemd[777]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry systemd[777]: Listening on GnuPG network certificate management daemon.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry systemd[777]: Listening on D-Bus User Message Bus Socket.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry systemd[777]: Reached target Sockets.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry systemd[777]: Reached target Basic System.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry systemd[777]: Reached target Default.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry systemd[777]: Startup finished in 298ms.
+-- Subject: Завершен запуск менеджера пользовательского сеанса
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Менеджер пользовательского сеанса для пользователя с идентификатором 115
+-- был запущен. Все службы, стоявшие в очереди на запуск, также были запущены. Тем 
+-- не менее, прочие службы могут все еще находиться в процессе запуска, либо могут
+-- быть запущены позднее.
+-- 
+-- Запуск менеджера занял 298183 микросекунд.
+сен 25 10:48:58 queryberry systemd[1]: Started User Manager for UID 115.
+-- Subject: Запуск юнита user@115.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита user@115.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry NetworkManager[374]: [0;1;31m[0;1;39m[0;1;31m((src/settings/nm-settings-connection.c:361)): assertion '<dropped>' failed[0m
+сен 25 10:48:58 queryberry systemd[1]: Started Session c1 of user lightdm.
+-- Subject: Запуск юнита session-c1.scope завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита session-c1.scope был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:58 queryberry NetworkManager[374]: [0;1;31m[0;1;39m[0;1;31m((src/settings/nm-settings-connection.c:361)): assertion '<dropped>' failed[0m
+сен 25 10:48:58 queryberry NetworkManager[374]: [0;1;31m[0;1;39m[0;1;31m((src/settings/nm-settings-connection.c:361)): assertion '<dropped>' failed[0m
+сен 25 10:48:58 queryberry NetworkManager[374]: [0;1;31m[0;1;39m[0;1;31m((src/settings/nm-settings-connection.c:361)): assertion '<dropped>' failed[0m
+сен 25 10:48:59 queryberry systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+сен 25 10:48:59 queryberry systemd[777]: Started D-Bus User Message Bus.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:48:59 queryberry dbus-daemon[795]: [session uid=115 pid=795] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.1' (uid=115 pid=789 comm="/usr/sbin/lightdm-gtk-greeter ")
+сен 25 10:48:59 queryberry systemd[777]: Starting Accessibility services bus...
+-- Subject: Начинается запуск юнита UNIT
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита UNIT.
+сен 25 10:48:59 queryberry dbus-daemon[795]: [session uid=115 pid=795] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.2' (uid=115 pid=796 comm="/usr/lib/at-spi2-core/at-spi-bus-launcher ")
+сен 25 10:48:59 queryberry systemd[777]: Starting Virtual filesystem service...
+-- Subject: Начинается запуск юнита UNIT
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита UNIT.
+сен 25 10:49:00 queryberry dbus-daemon[795]: [session uid=115 pid=795] Successfully activated service 'org.gtk.vfs.Daemon'
+сен 25 10:49:00 queryberry systemd[777]: Started Virtual filesystem service.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:49:00 queryberry dbus-daemon[795]: [session uid=115 pid=795] Successfully activated service 'org.a11y.Bus'
+сен 25 10:49:00 queryberry systemd[777]: Started Accessibility services bus.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:49:00 queryberry at-spi-bus-launcher[796]: dbus-daemon[807]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=115 pid=789 comm="/usr/sbin/lightdm-gtk-greeter ")
+сен 25 10:49:00 queryberry at-spi-bus-launcher[796]: dbus-daemon[807]: Successfully activated service 'org.a11y.atspi.Registry'
+сен 25 10:49:00 queryberry at-spi-bus-launcher[796]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+сен 25 10:50:35 queryberry sshd[825]: Accepted password for root from 46.28.228.22 port 45144 ssh2
+сен 25 10:50:35 queryberry sshd[825]: pam_unix(sshd:session): session opened for user root by (uid=0)
+сен 25 10:50:35 queryberry NetworkManager[374]: [0;1;31m[0;1;39m[0;1;31m((src/settings/nm-settings-connection.c:361)): assertion '<dropped>' failed[0m
+сен 25 10:50:35 queryberry NetworkManager[374]: [0;1;31m[0;1;39m[0;1;31m((src/settings/nm-settings-connection.c:361)): assertion '<dropped>' failed[0m
+сен 25 10:50:35 queryberry systemd[1]: Created slice User Slice of UID 0.
+-- Subject: Запуск юнита user-0.slice завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита user-0.slice был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry systemd[1]: Starting User Runtime Directory /run/user/0...
+-- Subject: Начинается запуск юнита user-runtime-dir@0.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита user-runtime-dir@0.service.
+сен 25 10:50:35 queryberry systemd-logind[369]: New session 2 of user root.
+-- Subject: Для пользователя root создан новый сеанс 2
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- Для пользователя root создан новый сеанс с идентификатором 2.
+-- 
+-- Главный процесс нового сеанса имеет индентификатор 825.
+сен 25 10:50:35 queryberry NetworkManager[374]: [0;1;31m[0;1;39m[0;1;31m((src/settings/nm-settings-connection.c:361)): assertion '<dropped>' failed[0m
+сен 25 10:50:35 queryberry systemd[1]: Started User Runtime Directory /run/user/0.
+-- Subject: Запуск юнита user-runtime-dir@0.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита user-runtime-dir@0.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry systemd[1]: Starting User Manager for UID 0...
+-- Subject: Начинается запуск юнита user@0.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита user@0.service.
+сен 25 10:50:35 queryberry systemd[828]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+сен 25 10:50:35 queryberry systemd[828]: Listening on GnuPG cryptographic agent and passphrase cache.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry systemd[828]: Reached target Timers.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry systemd[828]: Condition check resulted in Sound System being skipped.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry systemd[828]: Reached target Paths.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry systemd[828]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry systemd[828]: Starting D-Bus User Message Bus Socket.
+-- Subject: Начинается запуск юнита UNIT
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита UNIT.
+сен 25 10:50:35 queryberry systemd[828]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry systemd[828]: Listening on GnuPG network certificate management daemon.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry systemd[828]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry systemd[828]: Listening on D-Bus User Message Bus Socket.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry systemd[828]: Reached target Sockets.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry systemd[828]: Reached target Basic System.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry systemd[828]: Reached target Default.
+-- Subject: Запуск юнита UNIT завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита UNIT был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry systemd[828]: Startup finished in 123ms.
+-- Subject: Завершен запуск менеджера пользовательского сеанса
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Менеджер пользовательского сеанса для пользователя с идентификатором 0
+-- был запущен. Все службы, стоявшие в очереди на запуск, также были запущены. Тем 
+-- не менее, прочие службы могут все еще находиться в процессе запуска, либо могут
+-- быть запущены позднее.
+-- 
+-- Запуск менеджера занял 123103 микросекунд.
+сен 25 10:50:35 queryberry systemd[1]: Started User Manager for UID 0.
+-- Subject: Запуск юнита user@0.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита user@0.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry NetworkManager[374]: [0;1;31m[0;1;39m[0;1;31m((src/settings/nm-settings-connection.c:361)): assertion '<dropped>' failed[0m
+сен 25 10:50:35 queryberry systemd[1]: Started Session 2 of user root.
+-- Subject: Запуск юнита session-2.scope завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита session-2.scope был завершен.
+-- 
+-- Результат: done.
+сен 25 10:50:35 queryberry NetworkManager[374]: [0;1;31m[0;1;39m[0;1;31m((src/settings/nm-settings-connection.c:361)): assertion '<dropped>' failed[0m
+сен 25 10:50:35 queryberry NetworkManager[374]: [0;1;31m[0;1;39m[0;1;31m((src/settings/nm-settings-connection.c:361)): assertion '<dropped>' failed[0m
+сен 25 10:51:51 queryberry dhclient[481]: DHCPREQUEST for 192.168.88.35 on eth2 to 192.168.88.1 port 67
+сен 25 10:51:51 queryberry dhclient[481]: DHCPACK of 192.168.88.35 from 192.168.88.1
+сен 25 10:51:51 queryberry NetworkManager[374]: <info>  [1569397911.9018] dhcp4 (eth2):   address 192.168.88.35
+сен 25 10:51:51 queryberry NetworkManager[374]: <info>  [1569397911.9018] dhcp4 (eth2):   plen 24 (255.255.255.0)
+сен 25 10:51:51 queryberry NetworkManager[374]: <info>  [1569397911.9018] dhcp4 (eth2):   gateway 192.168.88.1
+сен 25 10:51:51 queryberry NetworkManager[374]: <info>  [1569397911.9019] dhcp4 (eth2):   lease time 600
+сен 25 10:51:51 queryberry NetworkManager[374]: <info>  [1569397911.9019] dhcp4 (eth2):   nameserver '192.168.88.1'
+сен 25 10:51:51 queryberry NetworkManager[374]: <info>  [1569397911.9019] dhcp4 (eth2):   nameserver '8.8.8.8'
+сен 25 10:51:51 queryberry NetworkManager[374]: <info>  [1569397911.9019] dhcp4 (eth2):   nameserver '8.8.4.4'
+сен 25 10:51:51 queryberry NetworkManager[374]: <info>  [1569397911.9020] dhcp4 (eth2): state changed bound -> bound
+сен 25 10:51:51 queryberry dbus-daemon[373]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.8' (uid=0 pid=374 comm="/usr/sbin/NetworkManager --no-daemon ")
+сен 25 10:51:51 queryberry systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Начинается запуск юнита NetworkManager-dispatcher.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита NetworkManager-dispatcher.service.
+сен 25 10:51:51 queryberry dhclient[481]: bound to 192.168.88.35 -- renewal in 252 seconds.
+сен 25 10:51:51 queryberry dbus-daemon[373]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+сен 25 10:51:51 queryberry systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Запуск юнита NetworkManager-dispatcher.service завершен
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Процесс запуска юнита NetworkManager-dispatcher.service был завершен.
+-- 
+-- Результат: done.
+сен 25 10:51:51 queryberry nm-dispatcher[853]: req:1 'dhcp4-change' [eth2]: new request (1 scripts)
+сен 25 10:51:51 queryberry nm-dispatcher[853]: req:1 'dhcp4-change' [eth2]: start running ordered scripts...
+сен 25 10:52:02 queryberry systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The unit NetworkManager-dispatcher.service has successfully entered the 'dead' state.
+сен 25 10:52:37 queryberry sudo[858]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/html/QueryBerry ; USER=root ; COMMAND=/etc/init.d/apache2 start[0m
+сен 25 10:52:37 queryberry sudo[858]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+сен 25 10:52:37 queryberry systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Начинается запуск юнита apache2.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита apache2.service.
+сен 25 10:52:37 queryberry apachectl[870]: AH00526: Syntax error on line 10 of /etc/apache2/sites-enabled/queryberry.site-le-ssl.conf:
+сен 25 10:52:37 queryberry apachectl[870]: SSLCertificateFile: file '/etc/letsencrypt/live/queryberry.site/fullchain.pem' does not exist or is empty
+сен 25 10:52:37 queryberry apachectl[870]: Action 'start' failed.
+сен 25 10:52:37 queryberry apachectl[870]: The Apache error log may have more information.
+сен 25 10:52:37 queryberry systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- An ExecStart= process belonging to unit apache2.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+сен 25 10:52:37 queryberry systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The unit apache2.service has entered the 'failed' state with result 'exit-code'.
+сен 25 10:52:37 queryberry systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Ошибка юнита apache2.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Произошел сбой юнита apache2.service.
+-- 
+-- Результат: failed.
+сен 25 10:52:37 queryberry sudo[858]: pam_unix(sudo:session): session closed for user root
+сен 25 10:52:51 queryberry sudo[894]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/html/QueryBerry ; USER=root ; COMMAND=/usr/sbin/service apache2 start[0m
+сен 25 10:52:51 queryberry sudo[894]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+сен 25 10:52:52 queryberry systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Начинается запуск юнита apache2.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита apache2.service.
+сен 25 10:52:52 queryberry apachectl[919]: AH00526: Syntax error on line 10 of /etc/apache2/sites-enabled/queryberry.site-le-ssl.conf:
+сен 25 10:52:52 queryberry apachectl[919]: SSLCertificateFile: file '/etc/letsencrypt/live/queryberry.site/fullchain.pem' does not exist or is empty
+сен 25 10:52:52 queryberry apachectl[919]: Action 'start' failed.
+сен 25 10:52:52 queryberry apachectl[919]: The Apache error log may have more information.
+сен 25 10:52:52 queryberry systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- An ExecStart= process belonging to unit apache2.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+сен 25 10:52:52 queryberry systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The unit apache2.service has entered the 'failed' state with result 'exit-code'.
+сен 25 10:52:52 queryberry systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Ошибка юнита apache2.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Произошел сбой юнита apache2.service.
+-- 
+-- Результат: failed.
+сен 25 10:52:52 queryberry sudo[894]: pam_unix(sudo:session): session closed for user root
+сен 25 10:53:02 queryberry sudo[926]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/html/QueryBerry ; USER=root ; COMMAND=/usr/sbin/service apache2 restart[0m
+сен 25 10:53:02 queryberry sudo[926]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+сен 25 10:53:02 queryberry systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Начинается запуск юнита apache2.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита apache2.service.
+сен 25 10:53:02 queryberry apachectl[932]: AH00526: Syntax error on line 10 of /etc/apache2/sites-enabled/queryberry.site-le-ssl.conf:
+сен 25 10:53:02 queryberry apachectl[932]: SSLCertificateFile: file '/etc/letsencrypt/live/queryberry.site/fullchain.pem' does not exist or is empty
+сен 25 10:53:02 queryberry apachectl[932]: Action 'start' failed.
+сен 25 10:53:02 queryberry apachectl[932]: The Apache error log may have more information.
+сен 25 10:53:02 queryberry systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- An ExecStart= process belonging to unit apache2.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+сен 25 10:53:02 queryberry systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The unit apache2.service has entered the 'failed' state with result 'exit-code'.
+сен 25 10:53:02 queryberry systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Ошибка юнита apache2.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Произошел сбой юнита apache2.service.
+-- 
+-- Результат: failed.
+сен 25 10:53:02 queryberry sudo[926]: pam_unix(sudo:session): session closed for user root
+сен 25 10:53:07 queryberry sudo[938]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/html/QueryBerry ; USER=root ; COMMAND=/usr/sbin/service apache2 stop[0m
+сен 25 10:53:07 queryberry sudo[938]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+сен 25 10:53:08 queryberry sudo[938]: pam_unix(sudo:session): session closed for user root
+сен 25 10:53:11 queryberry sudo[962]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/html/QueryBerry ; USER=root ; COMMAND=/usr/sbin/service apache2 start[0m
+сен 25 10:53:11 queryberry sudo[962]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+сен 25 10:53:12 queryberry systemd[1]: Starting The Apache HTTP Server...
+-- Subject: Начинается запуск юнита apache2.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Начат процесс запуска юнита apache2.service.
+сен 25 10:53:12 queryberry apachectl[986]: AH00526: Syntax error on line 10 of /etc/apache2/sites-enabled/queryberry.site-le-ssl.conf:
+сен 25 10:53:12 queryberry apachectl[986]: SSLCertificateFile: file '/etc/letsencrypt/live/queryberry.site/fullchain.pem' does not exist or is empty
+сен 25 10:53:12 queryberry apachectl[986]: Action 'start' failed.
+сен 25 10:53:12 queryberry apachectl[986]: The Apache error log may have more information.
+сен 25 10:53:12 queryberry systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- An ExecStart= process belonging to unit apache2.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+сен 25 10:53:12 queryberry systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Failed with result 'exit-code'.[0m
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- The unit apache2.service has entered the 'failed' state with result 'exit-code'.
+сен 25 10:53:12 queryberry systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m
+-- Subject: Ошибка юнита apache2.service
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Произошел сбой юнита apache2.service.
+-- 
+-- Результат: failed.
+сен 25 10:53:12 queryberry sudo[962]: pam_unix(sudo:session): session closed for user root

@@ -17,6 +17,8 @@
           <form id="groups_and_pagers" class="form-signin"  action="../admin/add_text_page_maker.php" method="post" enctype="multipart/form-data" name="form_auth">
             <h6 class="h5 mb-3 font-weight-small" style="margin-bottom:10px;">Заголовок:</h6>
             <input type="text_header" name="text_header" class="form-control" placeholder="" required style="margin-bottom:10px;">
+            <h6 class="h5 mb-3 font-weight-small" style="margin-bottom:10px;">Превью текст:</h6>
+            <input type="header" name="header" class="form-control" placeholder="" required style="margin-bottom:10px;">
             <textarea type="texta" name="texta" class="suitup-textarea" ></textarea>
             <input class="btn btn-lg btn-primary btn-block" type="submit" name="btn_submit_register" value="сохранить" id="sub" style="margin-top:10px;"></input>
           </form>

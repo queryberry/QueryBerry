@@ -28,6 +28,22 @@ if(isset($_POST["btn_submit_register"]) && !empty($_POST["btn_submit_register"])
       }
 }
 //
+if(isset($_POST["header"])){
+
+    $header = trim($_POST["header"]);
+
+    if(!empty($header)){
+
+        $header = htmlspecialchars($header, ENT_QUOTES);
+}else{
+// Сохраняем в сессию сообщение об ошибке.
+$_SESSION["error_messages"] .= "<p class='mesage_error' >Отсутствует поле для ввода Текста</p>";
+header("Location: http://".$adsite."/admin/add_text_page.php");
+
+exit();
+    }
+}
+//
   if(isset($_POST["texta"])){
 
       $texta = trim($_POST["texta"]);
@@ -47,7 +63,7 @@ if(isset($_POST["btn_submit_register"]) && !empty($_POST["btn_submit_register"])
 
 
 //
-$result = $mysqli->query("INSERT INTO `page_text`(`text_header`, `text`) VALUES ('$text_header', '$texta') ");
+$result = $mysqli->query("INSERT INTO `page_text`(`text_header`,`header`, `text`) VALUES ('$text_header', '$header', '$texta') ");
 header("Location: http://".$adsite."/admin/add_text_page.php");
 
 if ($result == true) {

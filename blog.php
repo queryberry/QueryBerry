@@ -1,4 +1,3 @@
-<? require_once("./admin/dbconnect.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,28 +10,31 @@
   <link rel="stylesheet" href="css/bootstrap.min.css?ver=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/master.css?ver=3">
   <link rel="stylesheet" href="css/mediaQueries.css">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans|Open+Sans+Condensed:300|Pacifico|Rubik+Mono+One&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="/icon/favicon.ico" type="image/x-icon">
+  <!-- Yandex.Metrika counter -->
+  <meta name="yandex-verification" content="5e5dc09da7a533b2" />
+  <script type="text/javascript" >
+     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+     m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+     (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+     ym(55478731, "init", {
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true,
+          webvisor:true
+     });
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/55478731" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<!-- Yandex.Metrika counter -->
-<meta name="yandex-verification" content="5e5dc09da7a533b2" />
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   ym(55478731, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/55478731" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
 <!-- Wow для анимации при прокрутке страницы -->
 <script src="js/wow.min.js"></script>
 <script>new WOW().init();</script>
@@ -45,7 +47,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-       <a class="navbar-brand logo animated heartBeat" href="#"><img class="logo" style="width:200px;" src="img/logo.jpg" alt=""></a>
+       <a class="navbar-brand logo animated heartBeat" href="#"><img class="logo" src="img/logo.jpg" alt=""></a>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav menu">
@@ -81,39 +83,45 @@
     </ul>
       </div>
     </nav>
-  </header>
-  <section class="ourTeam">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="team wow zoomIn">
-            <h2 class="team__title">
-              Наш Блог
-            </h2>
+    <div class="parallax-window blog__headerwrap " data-parallax="scroll" data-image-src="img/blog_background.jpg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="main">
+              <h1 class="main__title wow zoomIn">
+                Добро пожаловать в наш блог
+              </h1>
+              <p class="main__text wow zoomIn" data-wow-delay="0.4s">
+                В этом разделе вы можете подробно узнать о наших проектах, о новых технологиях, которые мы внидряем в наши проекты и в пирнципе ближе познакомиться с нами на нашими трудами.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <!--  -->
-        <?php
+      </div>
+    </div>
+      <section class="blogList">
+  <?php
+        require_once("./admin/dbconnect.php");
 
         $result = $mysqli->query("SELECT * FROM `page_text`");
           while ($row = $result->fetch_assoc() ) {
             echo '
-          <div class="col-lg-4">
-            <div class="jumbotron">
-              <h2 class="display-4">' . $row["text_header"] . '</h2>
-              <p class="lead">' .  mb_strimwidth($row["header"], 0, 30, "...") . '</p>
-              <hr class="my-4">
-              <p class="lead">
-                <a class="btn btn-primary btn-lg" href="blog_read_more.php?id=' . $row["id"] . '" role="button">Читать дальше</a>
-              </p>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="post">
+                  <h2 class="post__title"><a href="#" class="post__link">' . $row["text_header"] . '</a></h2>
+                  <span class="post__date">' . $row["date"] . '</span>
+                  <p class="post__text">
+                    ' .  mb_strimwidth($row["header"], 0, 30, "...") . '
+                    <span class="post__text__readMore"><a href="blog_read_more.php?id=' . $row["id"] . '" class="post__text__readMore__link">Читать далее</a></span>
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-          ';
+            ';
         }
-          ?>
-          <!--  -->
-        </div>
-      </div>
-    </div>
-  </section>
+?>
+        </section>
+</body>
+</html>

@@ -1,4 +1,3 @@
-<? require_once("./admin/dbconnect.php"); $id_page = $_GET["id"];?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -82,36 +81,48 @@
       </div>
     </nav>
   </header>
-  <section class="ourTeam">
+  <div class="parallax-window blog__headerwrap " data-parallax="scroll" data-image-src="img/blog_background.jpg">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="team wow zoomIn">
+          <div class="main">
+            <?php
 
-              <?php
-              $result = $mysqli->query("SELECT * FROM `page_text` WHERE `id` = $id_page");
-                while ($row = $result->fetch_assoc() ) {
-                  $test = $row["header"];
-                  echo '<h2 class="team__title">' . $test . '</h2>';
+            require_once("./admin/dbconnect.php");
+            $id_page = $_GET["id"];
+
+            $result = $mysqli->query("SELECT * FROM `page_text` WHERE `id` = $id_page");
+              while ($row = $result->fetch_assoc() ) {
+                $header = $row["text_header"];
+                echo '
+            <h1 class="main__title wow zoomIn">
+              ' . $header . '
+            </h1>
+            ';
                 }
-               ?>
-
+            ?>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
           <!--  -->
           <?php
 
                   $result = $mysqli->query("SELECT * FROM `page_text` WHERE `id` = $id_page");
                     while ($row = $result->fetch_assoc() ) {
-                      echo '<h4 class="border-bottom border-gray pb-2 mb-0" style="color:black;">  ' . $row["text_header"] .  '</h4>';
-                      echo '<div class="container" style="margin-top:10px;">';
-                      echo '<div class="row">';
-                      echo '<div class="col">';
-                      echo ' <p style="color:black;"> ' . html_entity_decode($row["text"]) . ' </p> ';
+
+                      echo '
+                      <div class="card" style="width: 90%;margin:auto;margin-top:50px;">
+                        <div class="card-header">
+                          ' . $row["text_header"] . '
+                        </div>
+                        <div class="card-body">
+                          <!-- <h5 class="card-title">Special title treatment</h5> -->
+                          <p class="card-text">' . html_entity_decode($row["text"]) . '</p>
+                        </div>
+                      </div>
+                       ';
                      }
                ?>
           <!--  -->
-
-      </div>
-    </div>
-  </section>

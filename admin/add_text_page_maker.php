@@ -61,9 +61,9 @@ exit();
 }
 
 
-
+$date = date("d.m.y");
 //
-$result = $mysqli->query("INSERT INTO `page_text`(`text_header`,`header`, `text`) VALUES ('$text_header', '$header', '$texta') ");
+$result = $mysqli->query("INSERT INTO `page_text`(`text_header`,`header`, `text`, `date`) VALUES ('$text_header', '$header', '$texta', '$date') ");
 header("Location: http://".$adsite."/admin/add_text_page.php");
 
 if ($result == true) {

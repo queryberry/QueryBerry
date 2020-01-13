@@ -221,7 +221,19 @@
 
   .person{
     margin: 0 auto;
+    width: 320px;
+    margin-bottom: 20px;
   }
+
+  .person_buttons{
+    padding: 0;
+  }
+
+  .personDebug{
+    width: 330px;
+    justify-content: center;
+  }
+
 
   .main__text{
     margin-bottom: 30px;

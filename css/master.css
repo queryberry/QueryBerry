@@ -359,6 +359,7 @@ p {
 .price__plan{
   text-align: center;
   width: 350px;
+  height: 704px;
   background-color: #fff;
   margin-bottom: 120px;
   padding-bottom: 40px;
@@ -370,12 +371,21 @@ p {
 }
 
 .price__plan__top{
-  background-color: #5B6EE1;
   height: 180px;
   color: #fff;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
   margin-bottom: 40px;
+}
+
+.price__plan__top__blue{
+    background-color: #5B6EE1;
+}
+.price__plan__top__purp{
+    background-color: #A200FF;
+}
+.price__plan__top__orange{
+    background-color: #FFDF00;
 }
 
 .price__plan__title{
